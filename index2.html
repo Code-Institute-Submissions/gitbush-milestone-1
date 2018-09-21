@@ -1,33 +1,148 @@
 <!DOCTYPE html>
+
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles2.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Pendulum</title>
 </head>
 
 <body>
-    <div class="container-fluid no-margins">
-        <header class="bg-img-header ">
-            <!--nav-->
-            <nav class="row custom-header" >
-                <div class="col-md-6 ">
-                    <a class="navbar-brand" href="#">
-                        <h3 class="pendulum">PENDULUM</h3>
-                    </a>
-                </div>
-                <div class="col-md-1.col-md-offset-4  menu-item">
-                    <div class="icon-bar neon"></div>
-                    <div class="icon-bar-mid neon"></div>
-                    <div class="icon-bar neon"></div>
+    <header class="container-fluid">
+        <div class="row custom-navbar ">
+            <div class="col-xs-10 col-xs-offset-2 col-sm-5 col-sm-offset-4 col-lg-4 col-lg-offset-8">
+                <ul class="nav navbar-nav">
+                    <li><a href="#"><i class="social-icons fab fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="social-icons fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="social-icons fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="social-icons fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="social-icons fab fa-spotify"></i></a></li>
+                    <li><a href="#"><i class="social-icons fab fa-google-plus-g"></i></a></li>
+                    <button type="submit" class="sign-up btn-lrg btn-info">Sign Up</button>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand">PENDULUM LOGO</a>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span> 
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse " id="myNavbar">
+                         <ul class="nav navbar-nav navbar-right list-main">
+                            <li class="list-space"><a href="#">About</a></li>
+                            <li class="list-space"><a href="#">Music</a></li>
+                            <li class="list-space"><a href="#">Tour</a></li> 
+                            <li class="list-space"><a href="#">Videos</a></li>
+                            <li class="list-space"><a href="#">Photos</a></li> 
+                         </ul>
+                         
+                    </div>
                 </div>
             </nav>
-        </header>
-    </div>
-  
+        </div>
+    </header>
+    <!-- Wrapper for carousel items -->
+    <div class="container-fluid bs-example">
+        <div id="myCarousel" class="row carousel slide" data-ride="carousel">
+            <div class="col carousel-inner">
+                <div class="item active">
+                    <img src="/Pendulum.jpg" alt="First Slide">
+                </div>
+                <div class="item">
+                    <img src="/Pendulum2.jpg" alt="Second Slide">
+                </div>
+            </div>
     
+        </div>
+    </div>
+    <main class="container">
+        <!--audio section-->
+        <section class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-md-10">
+                <iframe class="audio-player" src="https://open.spotify.com/embed/user/publicservicebroadcasting/playlist/5a2OuIJ1kEttA8X3PaewlI" style="border: 0; width: 100%; height: 380px;" allowfullscreen></iframe>
+            </div>
+        </section>
+        <!--news/video section-->
+        <section class="row">
+            <div class="col-xs-10 col-sm-7">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <P>LATEST NEWS/VIDEOS/TOURS</P>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        It has survived not only five centuries,</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <P>LATEST NEWS/VIDEOS/TOURS</P>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        It has survived not only five centuries,</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <P>LATEST NEWS/VIDEOS/TOURS</P>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        It has survived not only five centuries,</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <P>LATEST NEWS/VIDEOS/TOURS/ASIDE</P>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        It has survived not only five centuries,</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <P>LATEST NEWS/VIDEOS/TOURS/ASIDE</P>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        It has survived not only five centuries,</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container-fluid">
+        <div class="row footer">
+            <div class="col-xs-4 col-xs-offset-4">
+                <i class="far fa-copyright copyright"> 2018 by Matt Bush</i>
+            </div>
+            <div class="col-xs-4 col-xs-offset-4 footer-menu">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Tour</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Photos</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
