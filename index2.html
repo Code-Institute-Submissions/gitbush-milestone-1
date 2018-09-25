@@ -15,8 +15,9 @@
 </head>
 
 <body>
-    <!--Navbar-->
-    <header class="container-fluid">
+        <!---Navbar----------------->
+        
+    <header class="container">
         <!--Social media icon links-->
         <div class="row custom-navbar ">
             <div class="col-xs-10 col-xs-offset-2 col-sm-5 col-sm-offset-4 col-lg-4 col-lg-offset-8">
@@ -49,16 +50,18 @@
                             <li class="list-space"><a href="#">About</a></li>
                             <li class="list-space"><a href="#">Tour</a></li>
                             <li class="list-space"><a href="#">Music</a></li> 
-                            <li class="list-space"><a href="#">Photo Gallery</a></li>
-                            <li class="list-space"><a href="#">Video Gallery</a></li> 
+                            <li class="list-space"><a href="#">Photos</a></li>
+                            <li class="list-space"><a href="#">Videos</a></li> 
                         </ul>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
-    <!-- Wrapper for carousel items -->
-    <div class="container-fluid bs-example">
+    
+        <!---Carousel----------------->
+        
+    <div class="container bs-example">
         <div id="myCarousel" class="row carousel slide" data-ride="carousel">
             <div class="col carousel-inner">
                 <div class="item active">
@@ -71,18 +74,41 @@
     
         </div>
     </div>
-    <article class="container">
-        <!--Home page audio section-->
-        <section class="row">
-            <div class="col-xs-10 col-xs-offset-1 col-md-10">
-                <iframe class="audio-player" src="https://open.spotify.com/embed/user/publicservicebroadcasting/playlist/5a2OuIJ1kEttA8X3PaewlI" style="border: 0; width: 100%; height: 380px;" allowfullscreen></iframe>
-            </div>
-        </section>
-    </article>
+    
+    
+        <!---Main page section----------------->
+    
     <main class="container main-gutters">
-        <!--latest news-->
-        <section class="row">
-            <div class="col-xs-9 col-sm-7 col-centered col-background">
+        <section class="row top-row-gutters">
+        
+        <!---Homepage photos----------------->
+            
+           <div class="hidden-xs hidden-sm col-md-3 col-centered col-background homepage-photo">
+                <h4>PHOTO GALLERY</h4>
+                <img src="/lead-singer.jpg"  class="latest-tracks-img"></img>
+            </div>
+            
+        <!---Homepage videos----------------->
+        
+            <div class="col-xs-9 col-sm-8  col-sm-offset-2 col-md-offset-0 col-md-5 col-centered col-background homepage-video">
+                <h4>VIDEO GALLERY</h4>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/tEPB7uzKuh4?controls=0&showinfo=0&fs=0" frameborder="0" allow="autoplay; encrypted-media" ></iframe>
+            </div>
+        
+        <!---Homepage music----------------->
+        
+            <div class="col-xs-9 hidden-sm col-xs-9 col-sm-4 col-md-3 col-centered col-background homepage-music">
+                <h4>LATEST TRACKS</h4>
+                <img src="/reworks1.jpg"  class="latest-tracks-img"></img>
+            </div>
+
+        
+
+        </section>
+        <!---Latest news----------------->
+        
+        <section class="row news-row">
+            <div class="col-xs-9 col-sm-8 col-centered col-background">
                 <div class="row">
                     <div class="col-xs-10 col-xs-offset-1 news-section">
                         <div class="row news-section">
@@ -101,44 +127,109 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12">
-                        <P>LATEST NEWS/VIDEOS/TOURS</P>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        It has survived not only five centuries,</p>
+                    <div class="col-xs-10 col-xs-offset-1 news-section">
+                        <div class="row news-section">
+                            <span class="title-underline"></span>
+                            <div class="col-xs-12 col-sm-5 news-img-div news-section">
+                                <img class="news-img news" src="/news.jpg" alt="band-image">
+                            </div>
+                            <div class="col-xs-12 col-sm-7 news-brief">
+                                <h4>Pendulum UK arena tour</h4>
+                                <p>Drum 'n' bass figureheads Pendulum are back in action, set to break a 
+                                seven-year hiatus with a new album and accompanying live shows for 'The Reworks'</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12">
-                        <P>LATEST NEWS/VIDEOS/TOURS</P>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        It has survived not only five centuries,</p>
+                    <div class="col-xs-10 col-xs-offset-1 news-section">
+                        <div class="row news-section">
+                            <span class="title-underline"></span>
+                            <div class="col-xs-12 col-sm-5 news-img-div news-section">
+                                <img class="news-img news" src="/news4.jpg" alt="band-image">
+                            </div>
+                            <div class="col-xs-12 col-sm-7 news-brief">
+                                <h4>Pendulum UK arena tour</h4>
+                                <p>"Granite" is the first single from Australian drum and bass 
+                                band Pendulum's second studio album In Silico..</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-5">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <P>LATEST NEWS/VIDEOS/TOURS/ASIDE</P>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        It has survived not only five centuries,</p>
+            
+            <aside class="col-sm-4 aside-gutters">
+                
+        <!--Events list------------------------------>
+                
+                <div class="row event-row">
+                    <div class="col-xs-9 col-xs-offset-1 col-sm-10 col-centered col-background">
+                        <div class="row ">
+                            <div class="col-xs-12">
+                                <h4>UPCOMING EVENTS</h4>
+                            </div>
+                            <div class="col-xs-12">
+                                <div class="row event-list">
+                                    <div class="col-xs-3 event-time">
+                                        <span class="month">Sep</span>
+                                        <span class="day">12</span>
+                                        <span class="year">2012</span>
+                                    </div>
+                                    <div class="col-xs-8 event-details">
+                                        <h5>LIVE at The O2 Arena, London</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-3 event-time">
+                                        <span class="month">Sep</span>
+                                        <span class="day">12</span>
+                                        <span class="year">2012</span>
+                                    </div>
+                                    <div class="col-xs-8 event-details">
+                                        <h5>LIVE at The O2 Arena, London</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-3 event-time">
+                                        <span class="month">Sep</span>
+                                        <span class="day">12</span>
+                                        <span class="year">2012</span>
+                                    </div>
+                                    <div class="col-xs-8 event-details">
+                                        <h5>LIVE at The O2 Arena, London</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-3 event-time">
+                                        <span class="month">Sep</span>
+                                        <span class="day">12</span>
+                                        <span class="year">2012</span>
+                                    </div>
+                                    <div class="col-xs-8 event-details">
+                                        <h5>LIVE at The O2 Arena, London</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+                
+        <!---Mailing-list homepage----------------->
+                
+                <div class="row ">
+                    <div class="col-xs-9 col-xs-offset-1 col-sm-10 col-centered col-background">
+                        <div class="row mailing-list-homepage-row">
+                            <div class="col-xs-12">
+                                <h4>JOIN OUR MAILING LIST!</h4>
+                            </div>
+                            <div class="col-xs-12">
+                                <P>contact form</P>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <P>LATEST NEWS/VIDEOS/TOURS/ASIDE</P>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        It has survived not only five centuries,</p>
-                    </div>
-                </div>
-            </div>
+            </aside>
         </section>
     </main>
     <!--Footer-->

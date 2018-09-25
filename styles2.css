@@ -85,9 +85,7 @@ nav .list-social li a{
     background-color: #000;
 }
 
-.bs-example{
-	margin: 0px;
-}
+
 
 /*--------carousel-------*/
 
@@ -105,17 +103,45 @@ nav .list-social li a{
     height: 100%;
 }
 
-/*--------audio-------*/
+/*--------Homepage music-------*/
 
-.audio-player{
-    margin-top: 10px;
+.top-row-gutters{
+    padding: 0px 0 20px 0;
+    margin: 0;
 }
 
+.latest-tracks-heading{
+    margin-left:0;
+    padding-left: 0;
+}
+
+.homepage-photo{
+     padding: 0 0 15px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.homepage-music{
+    padding: 0 0 15px 0;
+    margin: 0;
+    text-align: center;
+    
+}
+.preview-gutters{
+    padding: 0 0 15px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.latest-tracks-img{
+    max-width: 215px;
+    min-width: 180px;
+}
 /*--------news section-------*/
 
 
 .col-background{
-    background-color: rgba(0, 0, 0, 0.4)
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .title-underline{
@@ -146,7 +172,54 @@ nav .list-social li a{
 }
 
 .news-section{
-    padding: 0;
+    padding: 5px 0;
+}
+
+/*--------event list-------*/
+
+.homepage-video{
+    padding-bottom: 15px;
+}
+
+.event-row{
+    margin-bottom: 30px;
+}
+.event-list{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.event-time{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.event-details:before {
+  content: "";
+  background-color: #fff;
+  width: 2px;
+  height: 40px;
+  top: 10px;
+  left: 0%;
+  position: absolute;
+}
+
+.aside-gutters{
+    margin-bottom: 0px;
+}
+
+
+.day{
+    display: block;
+    font-size: 30px;
+}
+
+.month{
+    display: block; 
+}
+
+.year{
+    display: block;
 }
 
 /*--------footer-------*/
@@ -222,14 +295,24 @@ footer{
     .title-underline{
         width: 80%;
     }
+    .mailing-list-homepage-row{
+        margin-bottom: 30px;
+    }
+    .event-row{
+        margin-top: 30px;
+    }
+   
 }
 
 @media (min-width:768px){
     .news-brief{
-        padding-left: 45px;
+        padding-left: 5px;
     }
     .news-img-div{
         padding-left: 0px;
+    }
+    .aside-gutters{
+        margin-left: 0px;
     }
     
 }
@@ -241,11 +324,25 @@ footer{
         padding-left: 0;
         max-width: 200px;
     }
+    .main-gutters{
+        padding: 20px 0px;
+        width: 90%;
+    
+}
 }
     
 @media (min-width:992px){  
     .main-gutters{
-        padding: 20px 40px;
-}
+        padding: 20px 30px;
+    }
+    .homepage-music{
+        margin-left: 30px;
+    }
+    .homepage-photo{
+        margin-right: 0;
+    }
+    .homepage-video{
+        margin-left: 30px;
+    }
 }
 
