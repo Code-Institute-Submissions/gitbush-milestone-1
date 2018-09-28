@@ -1,5 +1,5 @@
 body{
-    background: url("/carbon_fiber_4_.png") no-repeat center center fixed; 
+    background: #000;  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,6 +19,7 @@ body{
 
 
 /*--------------Header------------*/
+
 
 .custom-navbar{
     background-color: #000;
@@ -91,8 +92,10 @@ nav .list-social li a{
 
 .carousel{
     background: #2f4357;
-    margin-top: 0px;
+    margin-top: 0;
 }
+
+
 .carousel .item{
     min-height: 200px; /* Prevent carousel from being distorted if for some reason image doesn't load */
     height: 100%;
@@ -104,7 +107,9 @@ nav .list-social li a{
 }
 
 /*--------Homepage music-------*/
-
+.main-gutters{
+    background-color:#000;
+}
 .top-row-gutters{
     padding: 0px 0 20px 0;
     margin: 0;
@@ -141,7 +146,7 @@ nav .list-social li a{
 
 
 .col-background{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .title-underline{
@@ -206,6 +211,7 @@ nav .list-social li a{
 
 .aside-gutters{
     margin-bottom: 0px;
+    background-color:#000;
 }
 
 
@@ -344,5 +350,8 @@ footer{
     .homepage-video{
         margin-left: 30px;
     }
+    .header-container{
+        padding-top: 20px;
+}
 }
 
