@@ -281,7 +281,10 @@ footer{
 
 .fas{
     font-size: 18px;
-    
+}
+
+p{
+    color: white;
 }
 
 /*--------media-queries-------*/

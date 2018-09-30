@@ -1,10 +1,6 @@
 
 
-/*---------navbar------------*/
-
-#sign-up-form{
-    margin: .75em 0;
-}
+/*---------navbar-----------------------------------*/
 
 
 #sign-up-input{
@@ -12,9 +8,21 @@
     margin-right: .75em;
 }
 
+#sign-up-btn{
+    border: 2px solid;
+    border-color: #aca091;
+    background: none;
+    padding: 5px 12px;
+    margin: 5px;
+}
+
 .social-nav{
     background-image: url("/assets/top-nav.jpg");
     
+}
+
+.social-icons{
+    color: #92713b;
 }
 .navbar{
     margin-bottom: 0;
@@ -26,21 +34,31 @@
     background-image: url("/assets/bubinga-1200x300.jpg");    
 }
 
-/*---------top-row------------*/
-
-.top-row{
-    max-height:0% 
+.navbar-default .navbar-nav>li>a {
+    color: white;
 }
+
+/*---------top-row-------------------------------*/
+
+
 .home-top{
     text-align: right;
     box-shadow:  inset 24vw 0px 15vw 10vw  #191718;
     box-sizing: border-box;
     
 }
+ .about-top{
+     padding: 0;
+ }
 
 #main-img {
     z-index:-1;
     position: relative;
+}
+
+#about-img{
+    width: 100%;
+    height: 80%;
 }
 
 #jbt-name{
@@ -50,13 +68,13 @@
     height: 16vw;
 }
 
-/*---------tour main------------*/
+/*---------tour main------------------------------------------*/
 
 .tour-img-row{
-    background-image: url("/assets/bubinga-1200x300.jpg");
-    background-size: contain;
+    /*background-image: url("/assets/bubinga-1200x300.jpg");
+    background-size: contain;*/
     text-align: center;
-    padding: 16px;
+    /*padding: 16px;*/
 }
 
 .tour-img-col{
@@ -65,8 +83,9 @@
 .tour-img{
     z-index: 1;
     height: 100%;
-    width: 80%;
+    width: 100%;
     position: relative;
+    cursor: pointer;
     
 }
 
@@ -145,7 +164,7 @@
 
 
 
-/*---------discography------------*/
+/*---------discography--------------------------------------*/
 
 .disc-row{
     background-image: url("/assets/4957b0603a0416b.jpg");
@@ -195,7 +214,7 @@
     
 }
 
-/*---------video main------------*/
+/*---------video main-----------------------------------------------*/
 
 .video-row{
     text-align: center;
@@ -211,7 +230,122 @@
     padding: 20px;
 
 }
-/*---------media-queries------------*/
+
+/*---------mailing list--------------------------------------------------*/
+
+.mailing-list-row{
+    background-image: url("/assets/4957b0603a0416b.jpg");
+    background-size: contain;  
+    padding: 15px;
+    
+ 
+}
+
+.mail-logo{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.jbt-logo3{
+    width: 50%;
+    height:50%;
+}
+
+
+.mailing-list-heading{
+    text-align: center;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.h2-mail{
+    color: #f9c958;
+    font-weight: bold;
+    
+}
+
+#mailing-btn{
+    color: #f9c958;
+    border: 2px solid;
+    border-color: #f9c958;
+    background: none;
+    padding: 5px 5vw;
+    margin-top: 12px;
+    font-size: 20px;
+    font-size: 3vh;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.mailing-buttons{
+    text-align: center;
+}
+
+
+/*---------footer-----------------------------------------------*/
+
+footer{
+    background-image: url("/assets/bubinga-1200x300.jpg");
+    background-size: contain;
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+.copyright{
+    padding-bottom: 10px;
+}
+
+.fa-copyright{
+    color:white;
+}
+
+.footer-menu ul{
+    padding-left: 0;
+    vertical-align: middle;
+}
+
+.footer-menu li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+.footer-menu li a{
+    color: white;
+}
+
+.footer-menu li::before{
+    content: '/';
+    color: #696969;
+    font-size: 15px;
+    position: relative;
+    left: -4px;
+    top: 2px;
+}
+
+.footer-menu li:first-child:before {
+    content: "" !important;
+}
+
+.fas{
+    font-size: 18px;
+}
+
+.to-top{
+    color: white;
+}
+
+footer p{
+    color: white;
+}
+/*---------media-queries-------------------------------------------*/
 
 @media(min-width:768px){
     .logo{
@@ -233,7 +367,7 @@
     }
     .tour-img-row {
         text-align: center;
-        padding: 15px 3px 15px 0;
+    
     }
     .tour-img{
         width: 100%
