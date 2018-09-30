@@ -1,6 +1,11 @@
 
 
-/*---------navbar-----------------------------------*/
+
+p{
+    margin: 0;
+}
+
+/*---------header-navbar-----------------------------------*/
 
 
 #sign-up-input{
@@ -38,22 +43,24 @@
     color: white;
 }
 
-/*---------top-row-------------------------------*/
+/*---------main-content-------------------------------*/
+
+/*---------top-row--------------------------*/
 
 
 .home-top{
     text-align: right;
     box-shadow:  inset 24vw 0px 15vw 10vw  #191718;
     box-sizing: border-box;
+    padding: 0;
     
 }
- .about-top{
-     padding: 0;
- }
 
 #main-img {
     z-index:-1;
     position: relative;
+    height: 90%;
+    width: 80%;
 }
 
 #about-img{
@@ -66,6 +73,40 @@
     left:0; 
     top: 5em;
     height: 16vw;
+}
+
+ 
+
+/*---------about page--------------------------------*/
+
+.band-members-row{
+    background-color: #191718;
+}
+
+.jbt-about{
+    background-color: #191718;
+    color: white;
+    
+}
+
+.band-member-img-col{
+    padding: 0;
+    box-shadow:  inset 24vw 0px 15vw 10vw  #191718;
+    
+    
+}
+
+.band-members-img{
+    width:100%;
+    position: relative;
+    box-shadow:  inset 24vw 0px 15vw 10vw  #191718;
+    
+}
+
+.band-member-bio{
+    padding: 10px;
+    color: white;
+    
 }
 
 /*---------tour main------------------------------------------*/
@@ -94,6 +135,8 @@
     background-size: contain; 
     text-align: center;
 }
+
+/*---------tour page----------------*/
 
 .tour-block{
     color: #cf922a;
@@ -160,9 +203,6 @@
     padding: 5px 9px;
     margin: 5px;
 }
-
-
-
 
 /*---------discography--------------------------------------*/
 
@@ -355,7 +395,10 @@ footer p{
         padding-right:100px;
         padding-left: 100px;
     }
-    
+    /*.band-member-col{
+        box-shadow: inset  -44vw 0px 11vw 5vw #191718;
+        box-sizing: border-box;*/
+    }
 }
 
 @media(max-width:767px){
@@ -372,4 +415,12 @@ footer p{
     .tour-img{
         width: 100%
     }
+    .band-members-row{
+        background-color: black;
+    }
+    .band-members-img{
+        width: 100%;
+        opacity: .3;
+        z-index: 1;
+}
 }
