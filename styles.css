@@ -1,11 +1,32 @@
 
+/*--------general styles-----------------------------------*/
 
+body{
+    font-family: "Cinzel",georgia,serif;
+    font-size: 14px;
+   
+}
+
+h1, h2, h3{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 2.2em;
+}
+
+h2{
+    font-size: 2em;
+}
 
 p{
     margin: 0;
+    padding: 8px;
 }
 
 /*---------header-navbar-----------------------------------*/
+
 
 
 #sign-up-input{
@@ -43,29 +64,25 @@ p{
     color: white;
 }
 
-/*---------main-content-------------------------------*/
 
-/*---------top-row--------------------------*/
+
+/*---------home-top-row--------------------------*/
+
+
 
 
 .home-top{
     text-align: right;
-    box-shadow:  inset 24vw 0px 15vw 10vw  #191718;
-    box-sizing: border-box;
+    box-shadow:  inset 33vw -50px 15vw 3vw #191718;
     padding: 0;
-    
 }
+    
 
 #main-img {
     z-index:-1;
     position: relative;
     height: 90%;
     width: 80%;
-}
-
-#about-img{
-    width: 100%;
-    height: 80%;
 }
 
 #jbt-name{
@@ -75,136 +92,7 @@ p{
     height: 16vw;
 }
 
- 
-
-/*---------about page--------------------------------*/
-
-.band-members-row{
-    background-color: #191718;
-}
-
-.jbt-about{
-    background-color: #191718;
-    color: white;
-    
-}
-
-.band-member-img-col{
-    padding: 0;
-    box-shadow:  inset 24vw 0px 15vw 10vw  #191718;
-    
-    
-}
-
-.band-members-img{
-    width:100%;
-    position: relative;
-    box-shadow:  inset 24vw 0px 15vw 10vw  #191718;
-    
-}
-
-.band-member-bio{
-    padding: 10px;
-    color: white;
-    
-}
-
-/*---------tour main------------------------------------------*/
-
-.tour-img-row{
-    /*background-image: url("/assets/bubinga-1200x300.jpg");
-    background-size: contain;*/
-    text-align: center;
-    /*padding: 16px;*/
-}
-
-.tour-img-col{
-    padding: 0;
-}
-.tour-img{
-    z-index: 1;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    cursor: pointer;
-    
-}
-
-.tour-row{
-    background-image: url("/assets/4957b0603a0416b.jpg");
-    background-size: contain; 
-    text-align: center;
-}
-
-/*---------tour page----------------*/
-
-.tour-block{
-    color: #cf922a;
-}
-.tour-date{
-    display: inline-block;
-    text-align: center;
-
-}
-.month{
-    display: block;
-}
-
-.day{
-    display: block;
-    font-size: 2em;
-}
-
-.tour-location:before{
-    content: "";
-    background-color: #cf922a;
-    width: 2px;
-    height: 58px;
-    top: 14px;
-    right: 350px;
-    position: absolute;
-}
-
-.tour-location{
-    display: inline-block;
-    margin-left: 10px;
-    vertical-align: top;
-    padding: 0px 10px;
-}
-
-.tour-location h3{
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.tour-buttons{
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.btn-group{
-    vertical-align: top;
-}
-
-#tour-info-btn{
-    border: 2px solid;
-    border-color: #000;
-    background: none;
-    padding: 5px 12px;
-    margin: 5px;
-    
-}
-
-#tour-tickets-btn{
-    border: 2px solid;
-    border-color: #000;
-    background: none;
-    padding: 5px 9px;
-    margin: 5px;
-}
-
-/*---------discography--------------------------------------*/
+/*---------discography home page--------------------------------------*/
 
 .disc-row{
     background-image: url("/assets/4957b0603a0416b.jpg");
@@ -254,7 +142,7 @@ p{
     
 }
 
-/*---------video main-----------------------------------------------*/
+/*---------video home page-----------------------------------------------*/
 
 .video-row{
     text-align: center;
@@ -271,7 +159,7 @@ p{
 
 }
 
-/*---------mailing list--------------------------------------------------*/
+/*---------mailing list home page--------------------------------------------------*/
 
 .mailing-list-row{
     background-image: url("/assets/4957b0603a0416b.jpg");
@@ -292,19 +180,16 @@ p{
 }
 
 
-.mailing-list-heading{
+.mailing-list-info{
     text-align: center;
     font-style: italic;
     margin-top: 15px;
     margin-bottom: 15px;
+    color: #f9c958;
     
 }
 
-.h2-mail{
-    color: #f9c958;
-    font-weight: bold;
-    
-}
+
 
 #mailing-btn{
     color: #f9c958;
@@ -323,6 +208,156 @@ p{
 .mailing-buttons{
     text-align: center;
 }
+ 
+
+/*---------about page--------------------------------*/
+
+
+#about-img{
+    width: 100%;
+    height: 80%;
+}
+
+
+.jbt-about{
+    background-color: #191718;
+    color: white;
+    padding: 15px;
+    
+}
+
+.jbt-about-header{
+    font-size: 20px;
+}
+
+.band-member-img-col{
+    padding: 0;
+    
+    
+}
+
+.band-members-img{
+    width:100%;
+    position: relative;
+    z-index: -1;
+    
+}
+
+.band-member-bio{
+    padding: 10px;
+    color: white;
+    height: 100%;
+    background-color: #191718;
+}
+
+.band-member-bio h2{
+    margin: 0;
+}
+/*---------tour home------------------------------------------*/
+
+.tour-img-row{
+    /*background-image: url("/assets/bubinga-1200x300.jpg");
+    background-size: contain;*/
+    text-align: center;
+    /*padding: 16px;*/
+}
+
+.tour-img-col{
+    padding: 0;
+}
+.tour-img{
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.tour-row{
+    background-image: url("/assets/4957b0603a0416b.jpg");
+    background-size: contain; 
+    text-align: center;
+}
+
+/*---------tour page----------------*/
+
+.tour-container{
+    background-color: #191718;
+    text-transform: uppercase
+}
+
+.tour-header{
+    text-align: center;
+    color: white;
+}
+
+.tour-list{
+    list-style: none;
+    font-family: "Cinzel",georgia,serif;
+    overflow: hidden;
+}
+
+
+.tour-date{
+    display: inline-block;
+}
+
+.day{
+    display: inline-block;
+    color: white;
+}
+
+.month-year{
+    display: block;
+    color: #927d7d;
+}
+
+.tour-location{
+    display: block;
+    color: white;
+}
+
+.tour-venue{
+    display: block;
+    color: #927d7d;
+}
+
+.tour-tickets{
+   padding: 0;
+   text-align: center;
+   width: 75px;
+    
+}
+.tour-tickets a{
+    display: block;
+    color: #927d7d;
+    text-decoration: none;
+    border: 1px solid #927d7d;
+    padding: 9px 7px;
+    border-radius: 4px;
+    cursor: pointer;
+       
+}
+
+.tour-list li:last-child{
+    border-bottom: 0;
+}
+
+.tour-tickets a:hover{
+    color: white;
+    -webkit-transition: color ;   
+    -moz-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition:color .3s ease-in-out; 
+   
+}
+
+.tour-list-event{
+    border-bottom: 2px solid #242424;
+    padding: 15px 0 15px 0;
+}
+
 
 
 /*---------footer-----------------------------------------------*/
@@ -395,13 +430,21 @@ footer p{
         padding-right:100px;
         padding-left: 100px;
     }
-    /*.band-member-col{
-        box-shadow: inset  -44vw 0px 11vw 5vw #191718;
-        box-sizing: border-box;*/
+    .band-members-row{
+    box-shadow:  inset -56vw 13px 9vw 2vw  #191718;
+    }
+    .band-members-mid-row{
+    box-shadow:  inset 56vw 0px 13vw 7vw  #191718;
     }
 }
 
 @media(max-width:767px){
+    .home-top{
+        box-shadow: inset 16vw -13px 41vw 3vw #191718;
+    }
+    #main-img{
+        width: 100%;
+    }
     #jbt-name{
         position: absolute;
         top: 6vw;
@@ -410,17 +453,14 @@ footer p{
     }
     .tour-img-row {
         text-align: center;
-    
     }
     .tour-img{
         width: 100%
     }
-    .band-members-row{
-        background-color: black;
-    }
     .band-members-img{
         width: 100%;
-        opacity: .3;
-        z-index: 1;
-}
+    }
+    .tour-tickets{
+        margin: 5px 0;
+    }
 }
