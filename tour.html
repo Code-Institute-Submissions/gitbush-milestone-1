@@ -50,13 +50,16 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span> 
                         </button>
+                        <div class="navbar-brand">
+                            <a><img src="/assets/logo.png" class="logo"></img></a>
+                        </div>
                     </div>
                     <div class="collapse navbar-collapse " id="myNavbar">
                         <ul class="nav navbar-nav navbar-right list-main">
                             <li class="list-space"><a href="/index.html">Home</a></li>
                             <li class="list-space"><a href="/about.html">About</a></li>
                             <li class="list-space"><a href="/tour.html">Tour</a></li>
-                            <li class="list-space"><a href="#">Music</a></li> 
+                            <li class="list-space"><a href="/music.html">Music</a></li> 
                             <li class="list-space"><a href="#">Photos</a></li>
                             <li class="list-space"><a href="#">Videos</a></li> 
                         </ul>
@@ -244,22 +247,32 @@
                                 <a href="#">Tickets</a>
                             </div>
                         </li>
-                        
-                        
-                        
                     </ul>
                 </div>
             </div>
-            
-            
-            
-            
-            
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4 tour-mailing-list" >
+                    <span class="tour-join"><h4>Join our mailing list for early bird tickets!</h4></span>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name.." required>
+                    
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Your email.." required>
+                    
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                          <option value="australia">Australia</option>
+                          <option value="canada">Canada</option>
+                          <option value="uk">United Kingdom</option>
+                          <option value="usa">USA</option>
+                        </select>
+                        <div class="tour-register"><button type="submit" class="registerbtn">Register</button></div>
+                        
+                    </form>
+                </div>
+            </div>
         </section>
-        
-    
-        
-        
     </main>
     
     <!----------Footer---------->
@@ -316,54 +329,3 @@
        
        
        
-       
-       
-        <!--<section class="tour-row">
-            <div class="col-xs-12  ">
-                <article class="tour-block">
-                    <div class="tour-date">
-                        <span class="month">Sep</span>
-                        <span class="day">12</span>
-                        <span class="year">2012</span>
-                    </div>
-                    <div class="tour-location">
-                        <h3>KINGS BEACH, AUSTRALIA</h3>
-                        <p>CALOUNDRA MUSIC FESTIVAL</p>
-                    </div>
-                    <div class="btn-group">
-                        <button type="submit" id="tour-info-btn">INFO</button><br>
-                        <button type="submit" id="tour-tickets-btn">BOOK</button>
-                    </div>
-                </article>
-                <article class="tour-block">
-                    <div class="tour-date">
-                        <span class="month">Sep</span>
-                        <span class="day">12</span>
-                        <span class="year">2012</span>
-                    </div>
-                    <div class="tour-location">
-                        <h3>KINGS BEACH, AUSTRALIA</h3>
-                        <p>CALOUNDRA MUSIC FESTIVAL</p>
-                    </div>
-                    <div class="btn-group">
-                        <button type="submit" id="tour-info-btn">INFO</button><br>
-                        <button type="submit" id="tour-tickets-btn">BOOK</button>
-                    </div>
-                </article>
-                <article class="tour-block">
-                    <div class="tour-date">
-                        <span class="month">Sep</span>
-                        <span class="day">12</span>
-                        <span class="year">2012</span>
-                    </div>
-                    <div class="tour-location">
-                        <h3>KINGS BEACH, AUSTRALIA</h3>
-                        <p>CALOUNDRA MUSIC FESTIVAL</p>
-                    </div>
-                    <div class="btn-group">
-                        <button type="submit" id="tour-info-btn">INFO</button><br>
-                        <button type="submit" id="tour-tickets-btn">BOOK</button>
-                    </div>
-                </article>
-            </div>
-        </section>-->    

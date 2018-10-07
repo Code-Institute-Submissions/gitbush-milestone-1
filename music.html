@@ -68,79 +68,88 @@
     
     <!-----main-content------------->
     
-    <main class="container-fluid">
+    <main class="container music-container">
         
-    <!---about-top-image----------------->
+    <!---music-top-image----------------->
     
         <section class="row top-row">
-            <div class=" about-top">
-                <img src="/assets/jbt-about.jpg" id="about-img"></img>
-                <img src="/assets/butler-john-trio-the-4fcb7a9cc5ba5.png" id="jbt-name"></img>
+            <div class="col-12 tour-top">
+                <!--<img src="/assets/JohnButlerTrio.jpg" id="about-img"></img>-->
+                <!--<img src="/assets/butler-john-trio-the-4fcb7a9cc5ba5.png" id="jbt-name"></img>-->
             </div>
         </section>
         
-        <section class="row">
-            <div class="col-xs-12 jbt-about">
-                <header><h1>the band</h1></header>
-                <p>The John Butler Trio are an Australian roots/rock band led by guitarist and vocalist John Butler,
-                an APRA and ARIA-award-winning musician. They formed in Fremantle in 1998 with Jason McGann on drums and
-                Gavin Shoesmith on bass. By 2009, the trio consisted of Butler with Byron Luiters on bass and Nicky Bomba
-                on drums and percussion, the latter being replaced by Grant Gerathy in 2013.</p><br>
-                <p>The band's second studio album, Three (2001) reached the top 30 in the Australian album charts and
-                achieved platinum sales. The band's subsequent studio albums: Sunrise Over Sea (2004); Grand National 
-                (2007); and April Uprising (2010) all debuted at the number one position on the Australian album charts, 
-                with all three albums reaching platinum sales status. Living 2001–2002 (2003), the band's first live album,
-                reached the top ten and also achieved platinum status in Australia. The band's second live album, Live at
-                St. Gallen (2005), also achieved gold record status.</p><br>
-                 <p>The band's releases since 2002 have been marketed 
-                independently by Jarrah Records, which Butler co-owns with West Australian folk band the Waifs and manager 
-                of both acts, Philip Stevens. Their sixth studio album, Flesh & Blood, was released in February 2014.</p>
+    <!---albums/spotify embed dates----------------->
+        <header>
+            <div class="album-header">
+                <h1>Studio Albums</h1>
+            </div>
+        </header>
+        
+        <section class="row album-row">
+            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">   
+                <input id="toggle" type="checkbox"><label for="toggle">toggle slider</label>
+                <div id="wrap">
+                    <div id="home">
+                        <img src="/assets/jbt-home.jpg"></img>
+                    </div>
+                    <iframe src="https://open.spotify.com/embed/album/7CwynKJEKSKmjqA3ITYrWV" frameborder="0" allowtransparency="true" allow="encrypted-media" class="audio"></iframe>
+                </div>
+            </div>
+            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">   
+                <input id="toggle-ocean" type="checkbox"><label for="toggle-ocean">toggle slider</label>
+                <div id="wrap">
+                    <div id="ocean">
+                        <img src="/assets/jbt-ocean.jpg"></img>
+                    </div>
+                    <iframe src="https://open.spotify.com/embed/album/7CwynKJEKSKmjqA3ITYrWV" frameborder="0" allowtransparency="true" allow="encrypted-media" class="audio"></iframe>
+                </div>
+            </div>
+            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">    
+                <input id="toggle-flesh" type="checkbox"><label for="toggle-flesh">toggle slider</label>
+                <div id="wrap">
+                    <div id="flesh">
+                        <img src="/assets/jbt-flesh.jpg"></img>
+                    </div>
+                    <iframe src="https://open.spotify.com/embed/album/7CwynKJEKSKmjqA3ITYrWV" frameborder="0" allowtransparency="true" allow="encrypted-media" class="audio"></iframe>
+                </div>
             </div>
         </section>
-        
-    <!------about-band-members-------------->
-        
-        <section >
-            <article class="row band-members-row">
-                <div class="col-sm-6 band-member-img-col">
-                    <img src="/assets/john-butler.jpg" class="band-members-img">
+        <section class="row album-row">
+            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">   
+                <input id="toggle" type="checkbox"><label for="toggle">toggle slider</label>
+                <div id="wrap">
+                    <div id="home">
+                        <img src="/assets/jbt-april.jpg"></img>
+                    </div>
+                    <iframe src="https://open.spotify.com/embed/album/7CwynKJEKSKmjqA3ITYrWV" frameborder="0" allowtransparency="true" allow="encrypted-media" class="audio"></iframe>
                 </div>
-                <div class=" col-sm-6 band-member-bio">
-                    <header><h2>John butler</h2></header>
-                    <p>An independent role model, founder of Australia’s Jarrah Records, 
-                    family man and proud skateboard aficionado, JB, in spite of his matey 
-                    public persona, remains an enigma.</p>
-                    <p>He is from everywhere and nowhere,
-                    an Australian/American, Everyman/Nowhere Man, and his music mixes rootedness
-                    and rootlessness.</p>
+            </div>
+            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">   
+                <input id="toggle-ocean" type="checkbox"><label for="toggle-ocean">toggle slider</label>
+                <div id="wrap">
+                    <div id="ocean">
+                        <img src="/assets/jbt-grand.jpg"></img>
+                    </div>
+                    <iframe src="https://open.spotify.com/embed/album/7CwynKJEKSKmjqA3ITYrWV" frameborder="0" allowtransparency="true" allow="encrypted-media" class="audio"></iframe>
                 </div>
-            </article>
-            <article class="row band-members-mid-row">
-                <div class="col-sm-6 col-sm-push-6 band-member-img-col">
-                    <img src="/assets/Byron Luiters.jpg" class="band-members-img">
+            </div>
+            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">    
+                <input id="toggle-flesh" type="checkbox"><label for="toggle-flesh">toggle slider</label>
+                <div id="wrap">
+                    <div id="flesh">
+                        <img src="/assets/jbt-sunrise.jpg"></img>
+                    </div>
+                    <iframe src="https://open.spotify.com/embed/album/7CwynKJEKSKmjqA3ITYrWV" frameborder="0" allowtransparency="true" allow="encrypted-media" class="audio"></iframe>
                 </div>
-                <div class="col-sm-6 col-sm-pull-6 band-member-bio">
-                    <header><h2>Byron Luiters</h2></header>
-                    <p>In June 2009 Luiters was announced as the bassist for
-                    The John Butler Trio,[2] replacing previous bassist Shannon Birchall</p>
-                    <p>"The secret of playing bass well, for me, it not caring: 
-                    forgetting what you’ve learned and playing in the moment." </p>
-                </div>
-               
-            </article>
-            <article class="row band-members-row">
-                <div class="col-sm-6 band-member-img-col">
-                    <img src="/assets/Grant-garathy.jpg" class="band-members-img">
-                </div>
-                <div class="col-sm-6 band-member-bio">
-                    <header><h2>Grant Gerathy</h2></header>
-                    <p>Grant Gerathy, longtime drummer in The Ray Mann Three, has joined 
-                    John Butler Trio – which also includes former RM3 bassist Byron Luiters. 
-                    I’m as stoked for G now as we were for B back then – both excellent musicians 
-                    (and cheeky gents)</p>
-                </div>
-            </article>
+            </div>
         </section>
+
+    
+
+
+        
+        
     </main>
     
     <!----------Footer---------->
@@ -171,3 +180,29 @@
     </footer>
 </body>
 </html>
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       

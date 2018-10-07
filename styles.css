@@ -4,6 +4,7 @@
 body{
     font-family: "Cinzel",georgia,serif;
     font-size: 14px;
+    background-color: #191718;
    
 }
 
@@ -13,7 +14,7 @@ h1, h2, h3{
 }
 
 h1{
-    font-size: 2.2em;
+    font-size: 3.2em;
 }
 
 h2{
@@ -64,6 +65,15 @@ p{
     color: white;
 }
 
+.navbar-brand{
+    padding: 3px 0;
+    margin-left: 30px;
+}
+
+.logo{
+    width: 45px;
+    margin-left: 20px;
+}
 
 
 /*---------home-top-row--------------------------*/
@@ -226,9 +236,7 @@ p{
     
 }
 
-.jbt-about-header{
-    font-size: 20px;
-}
+
 
 .band-member-img-col{
     padding: 0;
@@ -358,7 +366,110 @@ p{
     padding: 15px 0 15px 0;
 }
 
+.tour-mailing-list{
+    padding-bottom: 20px;
+    color: #927d7d;
+}
 
+.tour-join{
+    text-align: center;
+}
+
+input[type=text], #country{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+.tour-register{
+    text-align: center;
+}
+
+.registerbtn{
+    width: auto;
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    
+}
+
+label{
+    text-align: left;
+    padding: 10px 0 2px 0;
+    margin: 0;
+}
+
+
+/*---------music page-----------------------------------------------*/
+
+.music-container{
+    background-color: #191718;
+}
+
+.album-header{
+    text-align: center;
+    color: white;
+}
+
+/*--album cover and spotify embed elements--*/
+
+.audio{
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+    height: 231px;
+    width: 231px;
+}
+
+#wrap {
+    height: 231px;
+    width: 231px;
+    
+    position: relative;
+    z-index: 1;
+}
+
+#home, #ocean, #flesh {
+    overflow-y: hidden;
+    max-height: 231px;
+    -webkit-transition: all .5s cubic-bezier(0, 1, 0.5, 1);
+    transition: all .5s cubic-bezier(0, 1, 0.5, 1);
+    background: pink;
+    height: 231px; 
+    width: 231px;
+}
+
+#toggle, #toggle-ocean, #toggle-flesh {
+    display: none;
+}
+
+#toggle + label, #toggle-ocean + label, #toggle-flesh + label {
+    padding: 1px 6px;
+    text-align: center;
+    border-radius: 2px;
+    background: rgb(221, 221, 221);
+    border: 1px outset buttonface;
+    margin-bottom: 2px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/*hidden checkbox action to toggle album and spotify embed*/
+
+#toggle:checked ~ #wrap > #home{
+    max-height: 0;
+}
+
+#toggle-ocean:checked ~ #wrap > #ocean{
+    max-height: 0;
+}
+
+#toggle-flesh:checked ~ #wrap > #flesh{
+    max-height: 0;
+}
 
 /*---------footer-----------------------------------------------*/
 
@@ -423,9 +534,7 @@ footer p{
 /*---------media-queries-------------------------------------------*/
 
 @media(min-width:768px){
-    .logo{
-        z-index:-1;
-    }
+    
     .disc-row{
         padding-right:100px;
         padding-left: 100px;
@@ -435,6 +544,8 @@ footer p{
     }
     .band-members-mid-row{
     box-shadow:  inset 56vw 0px 13vw 7vw  #191718;
+    }
+    
     }
 }
 
@@ -462,5 +573,7 @@ footer p{
     }
     .tour-tickets{
         margin: 5px 0;
+    }
+
     }
 }
