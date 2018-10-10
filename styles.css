@@ -33,6 +33,15 @@ p{
 #sign-up-input{
     float:left;
     margin-right: .75em;
+    padding: 10px;
+}
+
+#sign-up-input input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #000;
+    width: 190px;
+    text-align: center;
 }
 
 #sign-up-btn{
@@ -139,6 +148,7 @@ p{
 
 .more-btn{
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #more-btn-content{
@@ -263,12 +273,6 @@ p{
 }
 /*---------tour home------------------------------------------*/
 
-.tour-img-row{
-    /*background-image: url("/assets/bubinga-1200x300.jpg");
-    background-size: contain;*/
-    text-align: center;
-    /*padding: 16px;*/
-}
 
 .tour-img-col{
     padding: 0;
@@ -282,17 +286,19 @@ p{
     
 }
 
-.tour-row{
-    background-image: url("/assets/4957b0603a0416b.jpg");
-    background-size: contain; 
-    text-align: center;
-}
 
 /*---------tour page----------------*/
 
 .tour-container{
     background-color: #191718;
     text-transform: uppercase
+}
+
+
+.tour-row{
+    background-image: url("/assets/4957b0603a0416b.jpg");
+    background-size: contain; 
+    text-align: center;
 }
 
 .tour-header{
@@ -407,6 +413,20 @@ label{
 
 .music-container{
     background-color: #191718;
+    margin-bottom: 30px;
+}
+
+.music-top-row{
+    margin-top: 20px;
+}
+
+#music-logo{
+    width: 80%;
+}
+
+#music-jbt{
+    width: 90%;
+    margin-top: 8%;
 }
 
 .album-header{
@@ -432,38 +452,52 @@ label{
     z-index: 1;
 }
 
-#home, #ocean, #flesh {
+#home,
+#tin, 
+#flesh,
+#april,
+#grand,
+#sunrise{
     overflow-y: hidden;
     max-height: 231px;
     -webkit-transition: all .5s cubic-bezier(0, 1, 0.5, 1);
     transition: all .5s cubic-bezier(0, 1, 0.5, 1);
-    background: pink;
     height: 231px; 
     width: 231px;
 }
 
-#toggle, #toggle-ocean, #toggle-flesh {
+#toggle-home,
+#toggle-tin,
+#toggle-flesh,
+#toggle-april,
+#toggle-grand,
+#toggle-sunrise{
     display: none;
 }
 
-#toggle + label, #toggle-ocean + label, #toggle-flesh + label {
-    padding: 1px 6px;
+#toggle-home + label, 
+#toggle-tin + label,
+#toggle-flesh + label,
+#toggle-april + label,
+#toggle-grand + label,
+#toggle-sunrise + label{
+    padding: 5px;
     text-align: center;
     border-radius: 2px;
-    background: rgb(221, 221, 221);
-    border: 1px outset buttonface;
-    margin-bottom: 2px;
+    color: white;
+    background: #191718;
+    margin: 15px 0 5px 0px;
     display: inline-block;
     cursor: pointer;
 }
 
 /*hidden checkbox action to toggle album and spotify embed*/
 
-#toggle:checked ~ #wrap > #home{
+#toggle-home:checked ~ #wrap > #home{
     max-height: 0;
 }
 
-#toggle-ocean:checked ~ #wrap > #ocean{
+#toggle-tin:checked ~ #wrap > #tin{
     max-height: 0;
 }
 
@@ -471,6 +505,17 @@ label{
     max-height: 0;
 }
 
+#toggle-april:checked ~ #wrap > #april{
+    max-height: 0;
+}
+
+#toggle-grand:checked ~ #wrap > #grand{
+    max-height: 0;
+}
+
+#toggle-sunrise:checked ~ #wrap > #sunrise{
+    max-height: 0;
+}
 /*---------footer-----------------------------------------------*/
 
 footer{
@@ -574,6 +619,12 @@ footer p{
     .tour-tickets{
         margin: 5px 0;
     }
+}
 
+
+@media(min-width:1024px){
+    #wrap{
+        left: 10%;
     }
 }
+
