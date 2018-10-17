@@ -14,37 +14,13 @@
 </head>
 
 <body>
-        <!---Navbar----------------->
-        
-    <header class="container-fluid header-container">
-        
-        <!--Social media icon links and form bar-->
-        
-        <div class="row hidden-xs social-nav ">
-            <div class="col-xs-6" id="sign-up-form">
-                <form action="https://ptsv2.com/t/9mbjw-1519746391/post" method="post" id="sign-up-input">        
-                    <input type="email" id="email" placeholder="Sign up for our mailing list" name="email">
-                </form>
-                <button type="submit" id="sign-up-btn">Sign Up</button>
-            </div>
-            <div class="col-xs-6 ">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><i class="social-icons fab fa-facebook-square"></i></a></li>
-                    <li><a href="#"><i class="social-icons fab fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="social-icons fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="social-icons fab fa-youtube"></i></a></li>
-                    <li><a href="#"><i class="social-icons fab fa-spotify"></i></a></li>
-                    <li><a href="#"><i class="social-icons fab fa-google-plus-g"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        
         <!----------Main navbar-------------->
         
-        <div class="row ">
+        <div class="row navbar-fixed-top">
             <nav class="navbar main-nav navbar-default">
                 <div class="container-fluid">
                     <div class="navbar-header">
+                        <img class="navbar-brand" src="/assets/butler-john-trio-the-4fcb7a9cc5ba5.png"></img>
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -52,14 +28,29 @@
                         </button>
                     </div>
                     <div class="collapse navbar-collapse " id="myNavbar">
-                        <ul class="nav navbar-nav navbar-right list-main">
-                            <li class="list-space"><a href="/index.html">Home</a></li>
-                            <li class="list-space"><a href="/about.html">About</a></li>
-                            <li class="list-space"><a href="/tour.html">Tour</a></li>
-                            <li class="list-space"><a href="/music.html">Music</a></li> 
-                            <li class="list-space"><a href="#">Photos</a></li>
-                            <li class="list-space"><a href="#">Videos</a></li> 
-                        </ul>
+                        <div class=" social-nav">
+                            <ul class="nav navbar-nav ">
+                                <li><a href="#"><i class="social-icons fab fa-facebook-square"></i></a></li>
+                                <li><a href="#"><i class="social-icons fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="social-icons fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="social-icons fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="social-icons fab fa-spotify"></i></a></li>
+                            </ul>
+                            <form action="https://ptsv2.com/t/9mbjw-1519746391/post" method="post" id="sign-up-input">        
+                                <input type="email" id="email" placeholder="Sign up for our mailing list" name="email">
+                            </form>
+                            <button type="submit" id="sign-up-btn">Sign Up</button>
+                        </div>
+                        <div class="navbar-right">
+                            <ul class="nav navbar-nav">
+                                <li><a href="/index.html">Home</a></li>
+                                <li><a href="/about.html">About</a></li>
+                                <li><a href="/tour.html">Tour</a></li>
+                                <li><a href="/music.html">Music</a></li> 
+                                <li><a href="#">Photos</a></li>
+                                <li><a href="#">Videos</a></li> 
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -73,10 +64,7 @@
     <!---about-top-image----------------->
     
         <section class="row top-row">
-            <div class=" about-top">
-                <img src="/assets/jbt-about.jpg" id="about-img"></img>
-                <img src="/assets/butler-john-trio-the-4fcb7a9cc5ba5.png" id="jbt-name"></img>
-            </div>
+            <img src="/assets/jbt-about.jpg" id="about-img"></img>
         </section>
         
         <section class="row">

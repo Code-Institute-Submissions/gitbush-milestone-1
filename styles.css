@@ -4,7 +4,7 @@
 body{
     font-family: "Cinzel",georgia,serif;
     font-size: 14px;
-    background-color: #191718;
+    background-color: #333;
    
 }
 
@@ -26,14 +26,24 @@ p{
     padding: 8px;
 }
 
+
+.more-btn{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.top-row{
+    margin-top: 100px;
+}
+
 /*---------header-navbar-----------------------------------*/
 
 
 
 #sign-up-input{
     float:left;
-    margin-right: .75em;
-    padding: 10px;
+    padding: 10px 0;
+    color: white;
 }
 
 #sign-up-input input{
@@ -42,41 +52,46 @@ p{
     border-bottom: 1px solid #000;
     width: 190px;
     text-align: center;
+    
 }
 
 #sign-up-btn{
     border: 2px solid;
-    border-color: #aca091;
     background: none;
     padding: 5px 12px;
     margin: 5px;
 }
 
 .social-nav{
-    background-image: url("/assets/top-nav.jpg");
+    color: white;
+    margin-left: 30%;
     
 }
 
-.social-icons{
-    color: #92713b;
-}
+
 .navbar{
     margin-bottom: 0;
     border-radius: 0;
     border: none;
 }
 
+.navbar-right{
+    margin: 0;
+}
 .main-nav{
-    background-image: url("/assets/bubinga-1200x300.jpg");    
+    background-image: url("/assets/bubinga-1200x300.jpg"); 
+    height: 100px;
 }
 
 .navbar-default .navbar-nav>li>a {
     color: white;
 }
 
+
 .navbar-brand{
-    padding: 3px 0;
-    margin-left: 30px;
+    padding: 5px;
+    height: 100px;
+    margin-left: 0px !important;
 }
 
 .logo{
@@ -87,21 +102,13 @@ p{
 
 /*---------home-top-row--------------------------*/
 
-
-
-
-.home-top{
-    text-align: right;
-    box-shadow:  inset 33vw -50px 15vw 3vw #191718;
-    padding: 0;
-}
     
 
 #main-img {
     z-index:-1;
     position: relative;
-    height: 90%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
 }
 
 #jbt-name{
@@ -146,10 +153,7 @@ p{
     
 }
 
-.more-btn{
-    text-align: center;
-    margin-bottom: 20px;
-}
+
 
 #more-btn-content{
     color: #fff;
@@ -240,7 +244,7 @@ p{
 
 
 .jbt-about{
-    background-color: #191718;
+    background-color: #000;
     color: white;
     padding: 15px;
     
@@ -265,7 +269,7 @@ p{
     padding: 10px;
     color: white;
     height: 100%;
-    background-color: #191718;
+    background-color: #000;
 }
 
 .band-member-bio h2{
@@ -585,13 +589,14 @@ footer p{
         padding-left: 100px;
     }
     .band-members-row{
-    box-shadow:  inset -56vw 13px 9vw 2vw  #191718;
+    box-shadow:  inset -56vw 13px 9vw 2vw  #000;
     }
     .band-members-mid-row{
-    box-shadow:  inset 56vw 0px 13vw 7vw  #191718;
+    box-shadow:  inset 56vw 0px 13vw 7vw  #000;
     }
     
     }
+    
 }
 
 @media(max-width:767px){
@@ -603,7 +608,7 @@ footer p{
     }
     #jbt-name{
         position: absolute;
-        top: 6vw;
+        top: vw;
         left: 0vw;
         height: 18vw;
     }
