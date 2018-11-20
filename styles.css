@@ -3,7 +3,7 @@
 /*--------general styles-----------------------------------*/
 
 body{
-    background-color: #333;
+    background-color: #000;
     font-family: "Lato",georgia,serif;
     font-size: 14px;
     
@@ -58,7 +58,7 @@ h2{
 }
 
 .top-row{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 /*---------header-navbar-----------------------------------*/
@@ -124,27 +124,6 @@ h2{
     margin-left: 20px;
 }
 
-/*-----social-sidebar--------*/
-
-.social-sidebar{
-    position: fixed;
-    top: 33%;
-    left: 0;
-    z-index: 99;
-}
-
-.social-sidebar a{
-    display: block;
-    text-align: center;
-    padding: 8px;
-    margin: 5px 10px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 15px;
-    background-color: #a93d3d;
-}
-
-
 /*---------home-top-row--------------------------*/
 
     
@@ -169,7 +148,7 @@ h2{
     text-align: center;
     color: white;
     font-size: 2em;
-    padding-top: 6vh;
+    padding-top: 2vh;
 }
 
 
@@ -238,6 +217,7 @@ h2{
 
 .social-networks-icons{
     text-align: center;
+    padding-top: 10px
 }
 
 .social-networks-icons h4{
@@ -474,6 +454,14 @@ h2{
 
 /*---------about page--------------------------------*/
 
+.about-top-row{
+    background-image: url("/assets/jbt-the-band.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    margin-top: 50px;
+}
 
 #about-img{
     width: 100%;
@@ -508,6 +496,11 @@ h2{
     color: white;
     height: 100%;
     background-color: #000;
+}
+
+.band-member-bio p {
+    padding-top: 15px;
+    
 }
 
 .band-member-bio h2{
@@ -644,8 +637,14 @@ label{
     margin-bottom: 30px;
 }
 
+
 .music-top-row{
-    margin-top: 20px;
+    background-image: url("/assets/jbt-the-music.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    margin-top: 50px;
 }
 
 #music-logo{
@@ -692,6 +691,7 @@ label{
     transition: all .5s cubic-bezier(0, 1, 0.5, 1);
     height: 231px; 
     width: 231px;
+    border: solid 1px white;
 }
 
 #toggle-home,
@@ -807,7 +807,9 @@ footer p{
 /*---------media-queries-------------------------------------------*/
 
 @media(min-width:768px){
-    .home-top-row{
+    .home-top-row,
+    .music-top-row,
+    .about-top-row{
         height: 80vh;
     }
     .jbt-name h2{
@@ -835,7 +837,9 @@ footer p{
 }
 
 @media(min-width:992px){
-    .home-top-row{
+    .home-top-row,
+    .music-top-row,
+    .about-top-row{
         height: 90vh;}
 }
 
@@ -858,7 +862,9 @@ footer p{
     .tour-tickets{
         margin: 5px 0;
     }
-    .home-top-row{
+    .home-top-row,
+    .music-top-row,
+    .about-top-row{
         margin-top: 50px;
     }
 }
