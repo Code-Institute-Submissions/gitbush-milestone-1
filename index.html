@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="/styles.css" type="text/css" >
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">    <link rel="stylesheet" href="/styles.css" type="text/css" >
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
     <title>John Butler Trio</title>
 </head>
 
@@ -18,13 +18,12 @@
         
     <header class="container-fluid header-container">
         
-        <!----------Main navbar-------------->
+        <!--Main navbar-->
         
         <div class="row navbar-fixed-top">
             <nav class="navbar main-nav navbar-default">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <img class="navbar-brand" src="/assets/butler-john-trio-the-4fcb7a9cc5ba5.png"></img>
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -32,19 +31,6 @@
                         </button>
                     </div>
                     <div class="collapse navbar-collapse " id="myNavbar">
-                        <div class=" social-nav">
-                            <ul class="nav navbar-nav ">
-                                <li><a href="#"><i class="social-icons fab fa-facebook-square"></i></a></li>
-                                <li><a href="#"><i class="social-icons fab fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="social-icons fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="social-icons fab fa-youtube"></i></a></li>
-                                <li><a href="#"><i class="social-icons fab fa-spotify"></i></a></li>
-                            </ul>
-                            <form action="https://ptsv2.com/t/9mbjw-1519746391/post" method="post" id="sign-up-input">        
-                                <input type="email" id="email" placeholder="Sign up for our mailing list" name="email">
-                            </form>
-                            <button type="submit" id="sign-up-btn">Sign Up</button>
-                        </div>
                         <div class="navbar-right">
                             <ul class="nav navbar-nav">
                                 <li><a href="/index.html">Home</a></li>
@@ -61,120 +47,97 @@
         </div>
     </header>
     
-    <!-----main-content------------->
+    <!--Social fixed sidebar-->
+    
+    <!--<div class="social-sidebar">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-spotify"></i></a>
+    </div>-->
+    
+    <!--main-content-->
     
     <main class="container-fluid">
         
-    <!---top-image----------------->
+    <!--top-image-->
     
-        <section class="row">
-            <img src="/assets/butler-john-trio.jpg" id="main-img"></img>
+        <section class="row home-top-row">
+            <div class="hidden-xs col-sm-4">
+                <img class="jbt-badge" src="/assets/jbt-badge.png">
+            </div>
+            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-3 jbt-name">
+                <h2>The John Butler Trio</h2>
+            </div>
         </section>
-        <img src="/assets/jbt-badge.png"></img>
         
-        
-    <!---tour-home-row----------------->
     
-        <div class="row">
-            <a href="#"><img src="/assets/JBT _ MISSY_Frontier_928x400.jpg" class="tour-img"></a>
-        </div>
-        <section class="row">
-            <header class="col-12 tour-header">
-                <h3>Tour Dates</h3>
-            </header>
-            <div class="col-10">
-                <ul class="tour-list">
-                    <li class="row tour-list-event">
-                        <div class="col-xs-3  tour-date">
-                            <span class="day">Wed</span>
-                            <span class="month-year">Oct 3, 2018</span>
+        <!--news-section-->
+    
+             
+        <section class="row video-news-row display-table-row">
+            <div class="col-xs-12 col-sm-6 news-section table-cell">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <header class="section-header">
+                            <h3>Latest News</h3>
+                        </header>
+                        <header class="col-xs-12">
+                            <h5>Coming Home Tour</h5>
+                        </header>
+                        <div class="col-xs-10 col-xs-offset-1">
+                            <img width="100%" src="/assets/jbt-home-tour.jpg">
                         </div>
-                        <div class="col-xs-5 col-sm-7 tour-information">
-                            <span class="tour-location">Osaka, Japan</span>
-                            <span class="tour-venue">Bigcat</span>
+                        <div class="col-xs-12 news-info">
+                            <p><q>We are stoked to announce our COMING HOME TOUR across Australia in January and February 2019 with our good friend Missy Higgins*
+                                and singer-songwriter Stella Donnelly^ plus other guests joining us in select cities including The Teskey Brothers, The Waifs, Dan Sultan, Baker Boy and Carla Geneve.
+    
+                                We will be playing at some of the most iconic Australian venues including Leeuwin Estate Winery, Kings Park & Botanic Garden, Sidney Myer Music Bowl, The Sydney Opera House Forecourt,
+                                Stage 88 in Canberra and our fave venue in Brisbane, Riverstage, to name just a few.
+    
+                                Stay tuned Adelaide – special announcement coming your way in October.
+    
+                                “HOME” is out September 28. If you have not yet pre-ordered an album, you can when you purchase a Ticket & Album Bundle.
+                            </q></p>
                         </div>
-                        <div class="col-xs-2 tour-tickets">
-                            <a href="#">Tickets</a>
-                        </div>
-                    </li>
-                    <li class="row tour-list-event">
-                        <div class="col-xs-3  tour-date">
-                            <span class="day">Fri</span>
-                            <span class="month-year">Oct 5, 2018</span>
-                        </div>
-                        <div class="col-xs-5 col-sm-7 tour-information">
-                            <span class="tour-location">Mynavi Blitz Akasaka</span>
-                            <span class="tour-venue">Tokyo, Japan</span>
-                        </div>
-                        <div class="col-xs-2 tour-tickets">
-                            <a href="#">Tickets</a>
-                        </div>
-                    </li>
-                    <li class="row tour-list-event">
-                        <div class="col-xs-3  tour-date">
-                            <span class="day">Thur</span>
-                            <span class="month-year">Oct 11, 2018</span>
-                        </div>
-                        <div class="col-xs-5 col-sm-7 tour-information">
-                            <span class="tour-location">Glasgow, Scotland</span>
-                            <span class="tour-venue">Barrowlands</span>
-                        </div>
-                        <div class="col-xs-2 tour-tickets">
-                            <a href="#">Tickets</a>
-                        </div>
-                    </li>
-                    <li class="row tour-list-event">
-                        <div class="col-xs-3  tour-date">
-                            <span class="day">Fri</span>
-                            <span class="month-year">Oct 12, 2018</span>
-                        </div>
-                        <div class="col-xs-5 col-sm-7 tour-information">
-                            <span class="tour-location">Manchester, United Kingdom</span>
-                            <span class="tour-venue">Albert Hall</span>
-                        </div>
-                        <div class="col-xs-2 tour-tickets">
-                            <a href="#">Tickets</a>
-                        </div>
-                    </li>
-                    <li class="row tour-list-event">
-                        <div class="col-xs-3  tour-date">
-                            <span class="day">Sat</span>
-                            <span class="month-year">Oct 13, 2018</span>
-                        </div>
-                        <div class="col-xs-5 col-sm-7 tour-information">
-                            <span class="tour-location">Dublin, Ireland</span>
-                            <span class="tour-venue">Vicar st</span>
-                        </div>
-                        <div class="col-xs-2  tour-tickets">
-                            <a href="#">Tickets</a>
-                        </div>
-                    </li>
-                </ul>
-                <div class="more-btn">
-                    <button type="submit" id="more-btn-content">MORE VIDEOS</button>
+                    </div>
                 </div>
             </div>
-        </section>  
-        
-        
-    <!---video-home----------------->
-         
-        <section class="row video-row">
-            <div class="col-xs-12 video-container">
-                <iframe width="100%" height="450" src="https://www.youtube.com/embed/t7xLWJ0Uw3A?modestbranding=0&modestbranding=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                <div class="more-btn">
-                    <button type="submit" id="more-btn-content">MORE VIDEOS</button>
+            
+            <!--video-home-->
+            
+            <div class="col-xs-12 col-sm-6 table-cell video-home">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <header class="section-header">
+                            <h3>Videos</h3>
+                        </header>
+                        <header class="col-xs-12">
+                            <h5>Home</h5>
+                        </header>
+                        <div class="col-xs-12  video-wrapper">
+                            <iframe  src="https://www.youtube.com/embed/QpnjqYWBcas" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>     
+                        </div>
+                        <header class="col-xs-12">
+                            <h5>Young & Wild</h5>
+                        </header>
+                        <div class="col-xs-12  video-wrapper ">
+                            <iframe src="https://www.youtube.com/embed/_ukGTIYcJ4w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>            
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-         
-          <!---discography----------------->
+        
+      
+      
+      <!--discography-->
         
         <section class="row disc-row">
-            <header class="disc-header">
-                <h1 class="disc-title">DISCOGRAPHY</h1>
+            <header class="section-header-w">
+                <h3>DISCOGRAPHY</h3>
             </header>
-           
             <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 ">
                 <article class="album">
                     <a href="#"><img src="/assets/jbt-home.jpg" width=100% class="thumbnail"></img></a>
@@ -200,31 +163,123 @@
                 </div>
             </div>
             <div class="more-btn">
-                <button type="submit" id="more-btn-content">MORE ALBUMS</button>
+                <button type="submit" class="more-btn-content-w">MORE ALBUMS</button>
             </div>
-        </section>
-         
-    <!---Mailing-list homepage----------------->
+        </section>  
         
-        <section class="row mailing-list-row">
-            <div class="col-xs-12 col-sm-6 mail-logo ">
-                <img src="/assets/jbt-logo3.png" class="jbt-logo3"></img>
+    <!--tour-home-row-->
+    
+        <section class="row tour-bg">
+            <header class="section-header">
+                <h3>Tour Dates</h3>
+            </header>
+            <div class="col-xs-12 col-sm-6">
+                <img src="/assets/home-tour.png" width=100%></img>
             </div>
-            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 mailing-list-info">
-                <h2>subscribe to our mailing list!</h2></h2>
-                <div>
-                    <div class="col-xs-6">
-                        <button type="submit" id="mailing-btn">SIGN-UP</button>
-                    </div>
-                    <div class="col-xs-6">
-                        <button type="submit" id="mailing-btn">LOG IN</button>
-                    </div>
-                </div>
+            <div class="col-xs-12 col-sm-6">
+                <ul class="tour-list">
+                    <li class="row tour-list-event">
+                        <div class="col-xs-3  tour-date">
+                            <span class="day">Wed</span>
+                            <span class="month-year">Oct 3, 2018</span>
+                        </div>
+                        <div class="col-xs-5 col-sm-5 tour-information">
+                            <span class="tour-location">Osaka, Japan</span>
+                            <span class="tour-venue">Bigcat</span>
+                        </div>
+                        <div class="col-xs-2 tour-tickets">
+                            <a href="#">Tickets</a>
+                        </div>
+                    </li>
+                    <li class="row tour-list-event">
+                        <div class="col-xs-3  tour-date">
+                            <span class="day">Fri</span>
+                            <span class="month-year">Oct 5, 2018</span>
+                        </div>
+                        <div class="col-xs-5 col-sm-5 tour-information">
+                            <span class="tour-location">Mynavi Blitz Akasaka</span>
+                            <span class="tour-venue">Tokyo, Japan</span>
+                        </div>
+                        <div class="col-xs-2 tour-tickets">
+                            <a href="#">Tickets</a>
+                        </div>
+                    </li>
+                    <li class="row tour-list-event">
+                        <div class="col-xs-3  tour-date">
+                            <span class="day">Thur</span>
+                            <span class="month-year">Oct 11, 2018</span>
+                        </div>
+                        <div class="col-xs-5 col-sm-5 tour-information">
+                            <span class="tour-location">Glasgow, Scotland</span>
+                            <span class="tour-venue">Barrowlands</span>
+                        </div>
+                        <div class="col-xs-2 tour-tickets">
+                            <a href="#">Tickets</a>
+                        </div>
+                    </li>
+                    <li class="row tour-list-event">
+                        <div class="col-xs-3  tour-date">
+                            <span class="day">Fri</span>
+                            <span class="month-year">Oct 12, 2018</span>
+                        </div>
+                        <div class="col-xs-5 col-sm-5 tour-information">
+                            <span class="tour-location">Manchester, United Kingdom</span>
+                            <span class="tour-venue">Albert Hall</span>
+                        </div>
+                        <div class="col-xs-2 tour-tickets">
+                            <a href="#">Tickets</a>
+                        </div>
+                    </li>
+                    <li class="row tour-list-event">
+                        <div class="col-xs-3  tour-date">
+                            <span class="day">Sat</span>
+                            <span class="month-year">Oct 13, 2018</span>
+                        </div>
+                        <div class="col-xs-5 col-sm-5 tour-information">
+                            <span class="tour-location">Dublin, Ireland</span>
+                            <span class="tour-venue">Vicar st</span>
+                        </div>
+                        <div class="col-xs-2  tour-tickets">
+                            <a href="#">Tickets</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>  
+        
+
+     <!--Social posts-->
+        
+        <section class="row social-row">
+            <header class="section-header-w">
+                <h3>Social Networks</h3>
+            </header>
+            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">
+                <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/JohnButlerTrio?ref_src=twsrc%5Etfw">@JohnButlerTrio</a> “Home” is about as complete an album as they come. “Miss your Love” is intoxicating. Think u just painted your masterpiece. Bravo</p>&mdash; Chris Arland (@mercerjax) <a href="https://twitter.com/mercerjax/status/1050546621560307713?ref_src=twsrc%5Etfw">October 12, 2018</a></blockquote>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">
+                <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;m really digging the new jams from <a href="https://twitter.com/JohnButlerTrio?ref_src=twsrc%5Etfw">@JohnButlerTrio</a> . Especially like the use of more banjo. Feels like a throwback to their older music.</p>&mdash; Colton Brewer (@coltonlbrewer) <a href="https://twitter.com/coltonlbrewer/status/1050797761455685633?ref_src=twsrc%5Etfw">October 12, 2018</a></blockquote>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">
+                <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;This song is about good people all over the world...who are willing to stand together to protect what is most precious to them.” ✋🏿 <a href="https://twitter.com/hashtag/BULLY?src=hash&amp;ref_src=twsrc%5Etfw">#BULLY</a></p>&mdash; John Butler Trio (@JohnButlerTrio) <a href="https://twitter.com/JohnButlerTrio/status/900850268396544000?ref_src=twsrc%5Etfw">August 24, 2017</a></blockquote>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="col-xs-12 social-networks-icons">
+                <h4>Follow us on</h4>
+                <ul class="social-icons">
+                    <li><a href="" class="social-icon"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="" class="social-icon"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="" class="social-icon"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="" class="social-icon"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="" class="social-icon"><i class="fab fa-spotify"></i></a></li>
+                </ul>
             </div>
         </section>
     </main>
     
-    <!----------Footer---------->
+    <!--Footer-->
     
     <footer class="container-fluid ">
         <div class="row footer">
@@ -243,7 +298,7 @@
                 </ul>
             </div>
             
-    <!---------To top tab--------> 
+    <!--To top tab--> 
     
             <div class="col-xs-1 to-top">
                 <i class="fas fa-chevron-circle-up"></i>

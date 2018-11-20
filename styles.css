@@ -1,14 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
 
 /*--------general styles-----------------------------------*/
 
 body{
-    font-family: "Cinzel",georgia,serif;
-    font-size: 14px;
     background-color: #333;
+    font-family: "Lato",georgia,serif;
+    font-size: 14px;
+    
    
 }
 
-h1, h2, h3{
+h1, h2, h3, h4, h5{
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -21,15 +23,38 @@ h2{
     font-size: 2em;
 }
 
-p{
-    margin: 0;
-    padding: 8px;
+.section-header{
+    color: black;
+    text-align: center;
+    font-family: "Lato", sans-serif;
 }
 
+.section-header-w{
+    color: white;
+    text-align: center;
+}
 
 .more-btn{
     text-align: center;
     margin-bottom: 20px;
+}
+
+.more-btn-content{
+    color: #000;
+    border: 2px solid;
+    border-color: #000;
+    background: none;
+    padding: 5px 12px;
+    margin-top: 12px;
+}
+
+.more-btn-content-w{
+    color: #fff;
+    border: 2px solid;
+    border-color: #fff;
+    background: none;
+    padding: 5px 12px;
+    margin-top: 12px;
 }
 
 .top-row{
@@ -80,7 +105,7 @@ p{
 }
 .main-nav{
     background-image: url("/assets/bubinga-1200x300.jpg"); 
-    height: 100px;
+    
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -99,44 +124,257 @@ p{
     margin-left: 20px;
 }
 
+/*-----social-sidebar--------*/
+
+.social-sidebar{
+    position: fixed;
+    top: 33%;
+    left: 0;
+    z-index: 99;
+}
+
+.social-sidebar a{
+    display: block;
+    text-align: center;
+    padding: 8px;
+    margin: 5px 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 15px;
+    background-color: #a93d3d;
+}
+
 
 /*---------home-top-row--------------------------*/
 
     
 
-#main-img {
-    z-index:-1;
-    position: relative;
-    height: 100%;
-    width: 100%;
+.home-top-row{
+    background-image: url("/assets/butler-john-trio.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    margin-top: 50px;
+    
 }
 
-#jbt-name{
-    position: absolute ;
-    left:0; 
-    top: 5em;
-    height: 16vw;
+.jbt-badge{
+    height: 200px;
+    width: auto;
+}
+
+.jbt-name{
+    font-family: "Megrim";
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    padding-top: 6vh;
+}
+
+
+
+
+/*---------video home page-----------------------------------------------*/
+
+
+
+.video-news-row{
+    background-image: url("/assets/tour-bg1.jpg");
+    text-align: center;
+    padding: 0;
+    
+}
+
+.video-home{
+    padding-bottom: 30px;
+}
+
+.video-wrapper{
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+
+.video-wrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}    
+
+/*---------news--------------------------------------*/
+
+.news-info{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.social-row{
+    padding-bottom: 25px;
+    padding-top: 1px;
+    position: relative;
+}
+
+.social-row::before {
+  content: "";
+  background: url("/assets/1000_FleshBlood.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.social-networks-icons{
+    text-align: center;
+}
+
+.social-networks-icons h4{
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+
+.social-icons{
+    padding-left: 0;
+    
+}
+
+.social-icons li i{
+    border-radius: 20px;
+}
+
+.social-icon {
+    color: #fff;
+    list-style: none;
+}
+
+.social-icons li {
+    display: inline;
+    padding: 5px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-facebook-f {
+    padding:10px 16px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #a93d3d;
+   
+}
+
+.fa-facebook-f:hover {
+    background-color: #3d5b99;
+}
+
+.fa-twitter {
+    padding:10px 13px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #a93d3d;
+}
+
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #a93d3d;
+}
+
+.fa-instagram:hover {
+    background-color: #e1306c;
+}
+
+.fa-youtube {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #a93d3d;
+}
+
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+
+.fa-spotify {
+    padding:10px 13px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #a93d3d;
+}
+
+.fa-spotify:hover {
+    background-color: #1db954;
 }
 
 /*---------discography home page--------------------------------------*/
 
+   
+
 .disc-row{
-    background-image: url("/assets/4957b0603a0416b.jpg");
-    background-size: contain; 
     padding-bottom: 25px;
-    
+    padding-top: 1px;
+    position: relative;
 }
+
+.disc-row::before {
+  content: "";
+  background: url("/assets/1000_FleshBlood.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+
+
 .disc-header{
     text-align: center;
     color: white;
     font-weight: 200;
 }
 
-.disc-title{
-    font-family: "oswald", sans-serif;
-    font-size: 2em;
-    font-weight: bold;
-}
+
+
  
 .album-row{
     padding-bottom: 10px;
@@ -153,44 +391,44 @@ p{
     
 }
 
+/*---------tour home------------------------------------------*/
 
+.tour-bg{
+    background-image: url("/assets/tour-bg1.jpg");
+}
 
-#more-btn-content{
+.tour-header{
     color: #fff;
-    border: 2px solid;
-    border-color: #fff;
-    background: none;
-    padding: 5px 12px;
-    margin-top: 12px;
-    
-    
 }
 
-/*---------video home page-----------------------------------------------*/
-
-.video-row{
-    text-align: center;
+.twitter-list{
     padding: 0;
-    
 }
 
-.video-container{
-    background-image: url("/assets/bubinga-1200x300.jpg");
-    background-size: contain;
+.twitter-tweet{
     width: 100%;
-    height: 100%;
-    padding: 20px;
-
+    height: auto;
+    background-color: transparent;
 }
+
+
+.twitter-list-item{
+    background-color: transparent;
+}
+
+
+
+
 
 /*---------mailing list home page--------------------------------------------------*/
 
 .mailing-list-row{
-    background-image: url("/assets/4957b0603a0416b.jpg");
-    background-size: contain;  
-    padding: 15px;
-    
- 
+    background-image: url("/assets/mail-bg.jpg");
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 }
 
 .mail-logo{
@@ -275,20 +513,8 @@ p{
 .band-member-bio h2{
     margin: 0;
 }
-/*---------tour home------------------------------------------*/
 
 
-.tour-img-col{
-    padding: 0;
-}
-.tour-img{
-    z-index: 1;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    cursor: pointer;
-    
-}
 
 
 /*---------tour page----------------*/
@@ -307,13 +533,14 @@ p{
 
 .tour-header{
     text-align: center;
-    color: white;
+    color: #000;
 }
 
 .tour-list{
     list-style: none;
     font-family: "Cinzel",georgia,serif;
     overflow: hidden;
+    color: #7d4408;
 }
 
 
@@ -328,7 +555,6 @@ p{
 
 .month-year{
     display: block;
-    color: #927d7d;
 }
 
 .tour-location{
@@ -338,7 +564,6 @@ p{
 
 .tour-venue{
     display: block;
-    color: #927d7d;
 }
 
 .tour-tickets{
@@ -349,9 +574,9 @@ p{
 }
 .tour-tickets a{
     display: block;
-    color: #927d7d;
+    color: #7d4408;
     text-decoration: none;
-    border: 1px solid #927d7d;
+    border: 1px solid #7d4408;
     padding: 9px 7px;
     border-radius: 4px;
     cursor: pointer;
@@ -372,7 +597,7 @@ p{
 }
 
 .tour-list-event{
-    border-bottom: 2px solid #242424;
+    border-bottom: 2px solid #7d4408;
     padding: 15px 0 15px 0;
 }
 
@@ -416,7 +641,6 @@ label{
 /*---------music page-----------------------------------------------*/
 
 .music-container{
-    background-color: #191718;
     margin-bottom: 30px;
 }
 
@@ -583,6 +807,12 @@ footer p{
 /*---------media-queries-------------------------------------------*/
 
 @media(min-width:768px){
+    .home-top-row{
+        height: 80vh;
+    }
+    .jbt-name h2{
+        font-size: 2.8em;
+    }
     
     .disc-row{
         padding-right:100px;
@@ -594,23 +824,27 @@ footer p{
     .band-members-mid-row{
     box-shadow:  inset 56vw 0px 13vw 7vw  #000;
     }
-    
+    .display-table-row{
+        display: table;
+    }
+    .table-cell{
+        display: table-cell;
+        float: none;
     }
     
+}
+
+@media(min-width:992px){
+    .home-top-row{
+        height: 90vh;}
 }
 
 @media(max-width:767px){
     .home-top{
         box-shadow: inset 16vw -13px 41vw 3vw #191718;
     }
-    #main-img{
-        width: 100%;
-    }
-    #jbt-name{
-        position: absolute;
-        top: vw;
-        left: 0vw;
-        height: 18vw;
+    .jbt-name h2{
+        font-size: 2em;
     }
     .tour-img-row {
         text-align: center;
@@ -624,12 +858,18 @@ footer p{
     .tour-tickets{
         margin: 5px 0;
     }
+    .home-top-row{
+        margin-top: 50px;
+    }
 }
 
 
 @media(min-width:1024px){
     #wrap{
         left: 10%;
+    }
+    .jbt-name h2{
+        font-size: 3.5em;
     }
 }
 
