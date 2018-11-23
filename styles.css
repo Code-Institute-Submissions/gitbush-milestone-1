@@ -63,36 +63,61 @@ h2{
 
 /*---------header-navbar-----------------------------------*/
 
-
-
-#sign-up-input{
-    float:left;
-    padding: 10px 0;
-    color: white;
+.navbar-logo{
+    width: auto;
+    height: 55px;
+    padding: 5px;
 }
 
-#sign-up-input input{
+.navbar-jbt{
+    font-family: "Megrim";
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+}
+
+.register-form{
+    display: inline-block;
+}
+
+.form-navbar{
+    float: left;
+    margin: 10px;
+}
+
+.register-form input::-webkit-input-placeholder {
+    color: white !important;
+
+}
+ 
+.register-form input:-moz-placeholder { /* Firefox 18- */
+    color: white !important;  
+}
+ 
+.register-form input::-moz-placeholder {  /* Firefox 19+ */
+    color: white !important;  
+}
+ 
+.register-form input:-ms-input-placeholder {  
+    color: white !important;  
+}
+
+.form-control{
+    background-color: transparent;
     border: none;
-    background: transparent;
-    border-bottom: 1px solid #000;
-    width: 190px;
+    border-bottom: solid 1px white;
+    border-radius: 0;
     text-align: center;
-    
 }
 
-#sign-up-btn{
-    border: 2px solid;
-    background: none;
-    padding: 5px 12px;
-    margin: 5px;
-}
-
-.social-nav{
+.btn-default{
+    background-color: #924242;
     color: white;
-    margin-left: 30%;
-    
+    padding: 5px 12px;
+    vertical-align: bottom;
 }
-
 
 .navbar{
     margin-bottom: 0;
@@ -103,26 +128,62 @@ h2{
 .navbar-right{
     margin: 0;
 }
+
+.navbar-nav li{
+    padding: 5px;
+}
+
 .main-nav{
-    background-image: url("/assets/bubinga-1200x300.jpg"); 
+    /*background-image: url("/assets/bubinga-1200x300.jpg");*/ 
+    background-color: #400606;
+    border-bottom: solid 4px #000;
     
 }
 
-.navbar-default .navbar-nav>li>a {
+
+.page-active{
+    height: 60px;
+    background-color: #924242;
+}
+
+.navbar-inverse .navbar-nav li:hover{
+    background-color: #333;
+    transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -webkit-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+}
+
+.navbar-inverse .navbar-nav>li>a {
     color: white;
 }
 
+.navbar-toggle{
+    border: none;
+    margin-right: 30px;
+    padding: 15px;
+}
 
-.navbar-brand{
+
+.navbar-default{
+    border-color: #000;
+}
+
+.social-menu{
+    display: inline-flex;
+    padding: 0;
+}
+
+.social-menu li{
     padding: 5px;
-    height: 100px;
-    margin-left: 0px !important;
+    list-style: none;
 }
 
-.logo{
-    width: 45px;
-    margin-left: 20px;
+.social-menu li i{
+    border-radius: 20px;
+    background-color: #333;
 }
+
 
 /*---------home-top-row--------------------------*/
 
@@ -134,7 +195,7 @@ h2{
     background-position: center;
     background-size: cover;
     height: 60vh;
-    margin-top: 50px;
+    margin-top: 60px;
     
 }
 
@@ -396,60 +457,6 @@ h2{
     background-color: transparent;
 }
 
-
-
-
-
-/*---------mailing list home page--------------------------------------------------*/
-
-.mailing-list-row{
-    background-image: url("/assets/mail-bg.jpg");
-    background-position: center;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-}
-
-.mail-logo{
-    text-align: center;
-    margin-top: 15px;
-}
-
-.jbt-logo3{
-    width: 50%;
-    height:50%;
-}
-
-
-.mailing-list-info{
-    text-align: center;
-    font-style: italic;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    color: #f9c958;
-    
-}
-
-
-
-#mailing-btn{
-    color: #f9c958;
-    border: 2px solid;
-    border-color: #f9c958;
-    background: none;
-    padding: 5px 5vw;
-    margin-top: 12px;
-    font-size: 20px;
-    font-size: 3vh;
-    font-weight: bold;
-    cursor: pointer;
-    
-}
-
-.mailing-buttons{
-    text-align: center;
-}
  
 
 /*---------about page--------------------------------*/
@@ -603,32 +610,6 @@ h2{
     text-align: center;
 }
 
-input[type=text], #country{
-    display: block;
-    width: 100%;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #f1f1f1;
-}
-
-.tour-register{
-    text-align: center;
-}
-
-.registerbtn{
-    width: auto;
-    margin-top: 15px;
-    padding: 8px;
-    border-radius: 5px;
-    background-color: #f1f1f1;
-    
-}
-
-label{
-    text-align: left;
-    padding: 10px 0 2px 0;
-    margin: 0;
-}
 
 
 /*---------music page-----------------------------------------------*/
@@ -747,7 +728,9 @@ label{
 /*---------footer-----------------------------------------------*/
 
 footer{
-    background-image: url("/assets/bubinga-1200x300.jpg");
+    /*background-image: url("/assets/bubinga-1200x300.jpg");*/
+    background-color: #400606;
+    border-top: solid 4px #000;
     background-size: contain;
     margin: 0;
     padding-top: 10px;
@@ -833,6 +816,9 @@ footer p{
         display: table-cell;
         float: none;
     }
+    .social-menu{
+        display: none !important;
+}
     
 }
 
@@ -866,6 +852,13 @@ footer p{
     .music-top-row,
     .about-top-row{
         margin-top: 50px;
+    }
+    .form-navbar{
+        width: 100%;
+    }
+    .navbar-collapse{
+        text-align: center;
+        border-top: solid 4px black;
     }
 }
 
