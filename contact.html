@@ -3,24 +3,28 @@
 <html lang="en">
     
 <head>
+    <!--meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!--bootstrap CDN-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <!--font awesome CDN-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">    <link rel="stylesheet" href="/styles.css" type="text/css" >
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+    
     <title>John Butler Trio</title>
 </head>
 
 
 <body>
     
+    <!--Header navbar-->
     <header class="container-fluid header-container">
-        
-        <!--Main navbar-->
-        
         <div class="row navbar-fixed-top">
             <nav class="navbar main-nav navbar-inverse">
                 <div class="container-fluid">
@@ -30,15 +34,15 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span> 
                         </button>
-                        <a class="navbar-jbt"><img class="navbar-logo" src="/assets/logo.png">JBT</a>
+                        <a class="navbar-jbt"><img class="navbar-logo" src="/assets/logo.png" alt="jbt-logo">JBT</a>
                     </div>
                     <div class="collapse navbar-collapse " id="myNavbar">
                        <div class="navbar-right">
                             <ul class="nav navbar-nav">
                                 <li><a href="/index.html">Home</a></li>
-                                <li class="page-active"><a href="/about.html">About</a></li>
+                                <li><a href="/about.html">About</a></li>
                                 <li><a href="/music.html">Music</a></li> 
-                                <li><a href="/contact.html">Contact</a></li>
+                                <li  class="page-active"><a href="/contact.html">Contact</a></li>
                             </ul>   
                         <ul  class="social-menu">
                             <li><a href="" class="social-icon"><i class="fab fa-facebook-f"></i></a></li>
@@ -59,212 +63,51 @@
             </nav>
         </div>
     </header>
+    <!--End of Header navbar-->
     
-    <!-----main-content------------->
-    
+    <!--main-content-->
     <main class="container-fluid tour-container">
         
-    <!---tour-top-image----------------->
-    
-        <section class="row top-row">
-            <img src="/assets/JohnButlerTrio.jpg" id="about-img"></img>
+        <!--tour-top-image-->
+        <section class="row contact-top-row top-img-row">
+            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-7 jbt-name">
+                <h2>The John Butler Club</h2>
+            </div>
         </section>
-        
-    <!---tour dates----------------->
-        
+        <!--end of tour-top-image-->
+    
+        <!--tour dates section-->
         <section class="container tour-container">
             <div class="row">
-                <header class="col-12 tour-header">
-                    <h3>Tour Dates</h3>
-                </header>
-                <div class="col-12">
-                    <ul class="tour-list">
-                        <li class="row tour-list-event">
-                            <div class="col-xs-3  tour-date">
-                                <span class="day">Wed</span>
-                                <span class="month-year">Oct 3, 2018</span>
-                            </div>
-                            <div class="col-xs-9 col-sm-7 tour-information">
-                                <span class="tour-location">Osaka, Japan</span>
-                                <span class="tour-venue">Bigcat</span>
-                            </div>
-                            <div class="col-xs-1 col-xs-offset-1 col-sm-offset-0 tour-tickets">
-                                <a href="#">Tickets</a>
-                            </div>
-                        </li>
-                        <li class="row tour-list-event">
-                            <div class="col-xs-3  tour-date">
-                                <span class="day">Fri</span>
-                                <span class="month-year">Oct 5, 2018</span>
-                            </div>
-                            <div class="col-xs-9 col-sm-7 tour-information">
-                                <span class="tour-location">Mynavi Blitz Akasaka</span>
-                                <span class="tour-venue">Tokyo, Japan</span>
-                            </div>
-                            <div class="col-xs-1 col-xs-offset-1 col-sm-offset-0 tour-tickets">
-                                <a href="#">Tickets</a>
-                            </div>
-                        </li>
-                        <li class="row tour-list-event">
-                            <div class="col-xs-3  tour-date">
-                                <span class="day">Thur</span>
-                                <span class="month-year">Oct 11, 2018</span>
-                            </div>
-                            <div class="col-xs-9 col-sm-7 tour-information">
-                                <span class="tour-location">Glasgow, Scotland</span>
-                                <span class="tour-venue">Barrowlands</span>
-                            </div>
-                            <div class="col-xs-1 col-xs-offset-1 col-sm-offset-0 tour-tickets">
-                                <a href="#">Tickets</a>
-                            </div>
-                        </li>
-                        <li class="row tour-list-event">
-                            <div class="col-xs-3  tour-date">
-                                <span class="day">Fri</span>
-                                <span class="month-year">Oct 12, 2018</span>
-                            </div>
-                            <div class="col-xs-9 col-sm-7 tour-information">
-                                <span class="tour-location">Manchester, United Kingdom</span>
-                                <span class="tour-venue">Albert Hall</span>
-                            </div>
-                            <div class="col-xs-1 col-xs-offset-1 col-sm-offset-0 tour-tickets">
-                                <a href="#">Tickets</a>
-                            </div>
-                        </li>
-                        <li class="row tour-list-event">
-                            <div class="col-xs-3  tour-date">
-                                <span class="day">Sat</span>
-                                <span class="month-year">Oct 13, 2018</span>
-                            </div>
-                            <div class="col-xs-9 col-sm-7 tour-information">
-                                <span class="tour-location">Dublin, Ireland</span>
-                                <span class="tour-venue">Vicar st</span>
-                            </div>
-                            <div class="col-xs-1 col-xs-offset-1 col-sm-offset-0 tour-tickets">
-                                <a href="#">Tickets</a>
-                            </div>
-                        </li>
-                        <li class="row tour-list-event">
-                            <div class="col-xs-3  tour-date">
-                                <span class="day">Tues</span>
-                                <span class="month-year">Oct 16, 2018</span>
-                            </div>
-                            <div class="col-xs-9 col-sm-7 tour-information">
-                                <span class="tour-location">Bristol, United Kingdom</span>
-                                <span class="tour-venue">O2 Academy Bristol</span>
-                            </div>
-                            <div class="col-xs-1 col-xs-offset-1 col-sm-offset-0 tour-tickets">
-                                <a href="#">Tickets</a>
-                            </div>
-                        </li>
-                        <li class="row tour-list-event">
-                            <div class="col-xs-3  tour-date">
-                                <span class="day">Wed</span>
-                                <span class="month-year">Oct 17, 2018</span>
-                            </div>
-                            <div class="col-xs-9 col-sm-7 tour-information">
-                                <span class="tour-location">London, United Kingdom</span>
-                                <span class="tour-venue">Eventim Apollo</span>
-                            </div>
-                            <div class="col-xs-1 col-xs-offset-1 col-sm-offset-0 tour-tickets">
-                                <a href="#">Tickets</a>
-                            </div>
-                        </li>
-                        <li class="row tour-list-event">
-                            <div class="col-xs-3  tour-date">
-                                <span class="day">Sat</span>
-                                <span class="month-year">Oct 21, 2018</span>
-                            </div>
-                            <div class="col-xs-9 col-sm-7 tour-information">
-                                <span class="tour-location">Berlin, Germany</span>
-                                <span class="tour-venue">Huxleys</span>
-                            </div>
-                            <div class="col-xs-1 col-xs-offset-1 col-sm-offset-0 tour-tickets">
-                                <a href="#">Tickets</a>
-                            </div>
-                        </li>
-                        <li class="row tour-list-event">
-                            <div class="col-xs-3  tour-date">
-                                <span class="day">Fri</span>
-                                <span class="month-year">Oct 26, 2018</span>
-                            </div>
-                            <div class="col-xs-9 col-sm-7 tour-information">
-                                <span class="tour-location">Rome, Italy</span>
-                                <span class="tour-venue">Atlantico</span>
-                            </div>
-                            <div class="col-xs-1 col-xs-offset-1 col-sm-offset-0 tour-tickets">
-                                <a href="#">Tickets</a>
-                            </div>
-                        </li>
-                        <li class="row tour-list-event">
-                            <div class="col-xs-3  tour-date">
-                                <span class="day">Sun</span>
-                                <span class="month-year">Oct 28, 2018</span>
-                            </div>
-                            <div class="col-xs-9 col-sm-7 tour-information">
-                                <span class="tour-location">Milan, Italy</span>
-                                <span class="tour-venue">Alcatraz</span>
-                            </div>
-                            <div class="col-xs-1 col-xs-offset-1 col-sm-offset-0 tour-tickets">
-                                <a href="#">Tickets</a>
-                            </div>
-                        </li>
-                        <li class="row tour-list-event">
-                            <div class="col-xs-3  tour-date">
-                                <span class="day">Wed</span>
-                                <span class="month-year">Oct 31, 2018</span>
-                            </div>
-                            <div class="col-xs-9 col-sm-7 tour-information">
-                                <span class="tour-location">Amsterdam, Netherlands</span>
-                                <span class="tour-venue">Paradiso</span>
-                            </div>
-                            <div class="col-xs-1 col-xs-offset-1 col-sm-offset-0 tour-tickets">
-                                <a href="#">Tickets</a>
-                            </div>
-                        </li>
-                        <li class="row tour-list-event">
-                            <div class="col-xs-3  tour-date">
-                                <span class="day">Wed</span>
-                                <span class="month-year">Oct 3, 2018</span>
-                            </div>
-                            <div class="col-xs-9 col-sm-7 tour-information">
-                                <span class="tour-location">Washington, DC</span>
-                                <span class="tour-venue">Warner Theatre</span>
-                            </div>
-                            <div class="col-xs-1 col-xs-offset-1 col-sm-offset-0 tour-tickets">
-                                <a href="#">Tickets</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4 tour-mailing-list" >
-                    <span class="tour-join"><h4>Join our mailing list for early bird tickets!</h4></span>
-                    <form>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Your name.." required>
-                    
-                        <label for="email">Email</label>
-                        <input type="text" id="email" name="email" placeholder="Your email.." required>
-                    
+                <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 ">
+                    <header class="contact-header">
+                        <h3>Contact us</h3>
+                        <p>Leave us a message</p>
+                    </header>
+                    <form class="contact-form" action="">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your first name" required>
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name" required>
                         <label for="country">Country</label>
-                        <select id="country" name="country">
-                          <option value="australia">Australia</option>
-                          <option value="canada">Canada</option>
-                          <option value="uk">United Kingdom</option>
-                          <option value="usa">USA</option>
+                        <select id="country" name="country" required>
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
                         </select>
-                        <div class="tour-register"><button type="submit" class="registerbtn">Register</button></div>
-                        
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something to us..." style="height:170px" required></textarea>
+                        <input type="submit" value="Submit">
                     </form>
+                    <img class="sign-img" src="/assets/jbt-sign.jpg" alt="band-image">
                 </div>
             </div>
         </section>
+        <!--end of tour dates section-->
     </main>
+    <!--end of main-content-->
     
-    <!----------Footer---------->
-    
+    <!--Footer-->
     <footer class="container-fluid ">
         <div class="row footer">
             <div class="col-xs-12 col-sm-5">
@@ -280,14 +123,20 @@
                 </ul>
             </div>
             
-    <!---------To top tab--------> 
-    
+            <!--To top tab--> 
             <div class="col-xs-1 to-top">
                 <i class="fas fa-chevron-circle-up"></i>
             </div>
+            <!--end of To top tab--> 
         </div>
     </footer>
+    <!--end of Footer-->
 </body>
+
+    <!--Bootstrap JS and Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
 </html>
        
        

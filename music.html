@@ -3,24 +3,27 @@
 <html lang="en">
     
 <head>
+    <!--meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!--bootstrap CDN-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <!--font awesome CDN-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">    <link rel="stylesheet" href="/styles.css" type="text/css" >
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+    
     <title>John Butler Trio</title>
 </head>
 
-
 <body>
     
+    <!--header navbar-->
     <header class="container-fluid header-container">
-        
-        <!--Main navbar-->
-        
         <div class="row navbar-fixed-top">
             <nav class="navbar main-nav navbar-inverse">
                 <div class="container-fluid">
@@ -30,14 +33,14 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span> 
                         </button>
-                        <a class="navbar-jbt"><img class="navbar-logo" src="/assets/logo.png">JBT</a>
+                        <a class="navbar-jbt"><img class="navbar-logo" src="/assets/logo.png" alt="jbt-logo">JBT</a>
                     </div>
                     <div class="collapse navbar-collapse " id="myNavbar">
                         <div class="navbar-right">
                             <ul class="nav navbar-nav">
                                 <li><a href="/index.html">Home</a></li>
-                                <li class="page-active"><a href="/about.html">About</a></li>
-                                <li><a href="/music.html">Music</a></li> 
+                                <li><a href="/about.html">About</a></li>
+                                <li class="page-active"><a href="/music.html">Music</a></li> 
                                 <li><a href="/contact.html">Contact</a></li>
                             </ul>   
                         <ul  class="social-menu">
@@ -59,86 +62,105 @@
             </nav>
         </div>
     </header>
+    <!--end of header navbar-->
     
-    <!-----main-content------------->
-    
+    <!--main-content-->
     <main class="container-fluid music-container">
         
-    <!---music-top-image----------------->
-    
-        <section class="row music-top-row">
+        <!--music-top-image-->
+        <section class="row music-top-row top-img-row">
             <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-7 jbt-name">
                 <h2>The John Butler Music</h2>
             </div>
         </section>
+        <!--end of music-top-image-->
         
-    <!---albums/spotify embed dates----------------->
-    
-        <section class="row music-bg">
+        <!--albums/spotify embed-->
+        <section class="row music-bg album-row">
             <header>
                 <div class="album-header">
                     <h3>Studio Albums</h3>
                 </div>
             </header>
-            <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-0">   
+            
+            <!--Home album-->
+            <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0">   
                 <input id="toggle-home" type="checkbox"><label for="toggle-home">Home ( See album )</label>
-                <div id="wrap">
+                <div class="wrap">
                     <div id="home">
-                        <img src="/assets/jbt-home.jpg"></img>
+                        <img src="/assets/jbt-home.jpg" alt="home-image">
                     </div>
-                    <iframe src="https://open.spotify.com/embed/album/7CwynKJEKSKmjqA3ITYrWV" frameborder="0" allowtransparency="true" allow="encrypted-media" class="audio"></iframe>
+                    <iframe src="https://open.spotify.com/embed/album/7CwynKJEKSKmjqA3ITYrWV" allow="encrypted-media" class="audio"></iframe>
                 </div>
             </div>
-            <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-0">   
+            <!--end of Home album-->
+            
+            <!--Tin shed album-->
+            <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-1">   
                 <input id="toggle-tin" type="checkbox"><label for="toggle-tin">Tin Shed Tales ( See album )</label>
-                <div id="wrap">
+                <div class="wrap">
                     <div id="tin">
-                        <img src="/assets/jbt-tin.jpg"></img>
+                        <img src="/assets/jbt-tin.jpg" alt="tin-image">
                     </div>
-                    <iframe src="https://open.spotify.com/embed/album/23a1Skx6uhid7CniwxGK6z" frameborder="0" allowtransparency="true" allow="encrypted-media" class="audio"></iframe>
+                    <iframe src="https://open.spotify.com/embed/album/23a1Skx6uhid7CniwxGK6z" allow="encrypted-media" class="audio"></iframe>
                 </div>
             </div>
-            <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-0">    
+            <!--end of Tin shed album-->
+            
+            <!--Flesh and blood album-->
+            <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-1">    
                 <input id="toggle-flesh" type="checkbox"><label for="toggle-flesh">Flesh & Blood ( See album )</label>
-                <div id="wrap">
+                <div class="wrap">
                     <div id="flesh">
-                        <img src="/assets/jbt-flesh.jpg"></img>
+                        <img src="/assets/jbt-flesh.jpg" alt="flesh-image">
                     </div>
-                    <iframe src="https://open.spotify.com/embed/album/6GTq8ANST9L7RsHo09HWMm" frameborder="0" allowtransparency="true" allow="encrypted-media" class="audio"></iframe>
+                    <iframe src="https://open.spotify.com/embed/album/6GTq8ANST9L7RsHo09HWMm" allow="encrypted-media" class="audio"></iframe>
                 </div>
             </div>
-            <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-0">   
+            <!--end of Flesh and blood album-->
+            
+            <!--April album-->
+            <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0">   
                 <input id="toggle-april" type="checkbox"><label for="toggle-april">April Uprising ( See album )</label>
-                <div id="wrap">
+                <div class="wrap">
                     <div id="april">
-                        <img src="/assets/jbt-april.jpg"></img>
+                        <img src="/assets/jbt-april.jpg" alt="april-image">
                     </div>
-                    <iframe src="https://open.spotify.com/embed/album/5JPVYiooxGFFkcpxS9Ofkb" frameborder="0" allowtransparency="true" allow="encrypted-media" class="audio"></iframe>
+                    <iframe src="https://open.spotify.com/embed/album/5JPVYiooxGFFkcpxS9Ofkb" allow="encrypted-media" class="audio"></iframe>
                 </div>
             </div>
-            <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-0">   
+            <!--end of April album-->
+            
+            <!--Grand album-->
+            <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-1">   
                 <input id="toggle-grand" type="checkbox"><label for="toggle-grand">Grand National ( See album )</label>
-                <div id="wrap">
+                <div class="wrap">
                     <div id="grand">
-                        <img src="/assets/jbt-grand.jpg"></img>
+                        <img src="/assets/jbt-grand.jpg" alt="grand-image">
                     </div>
-                    <iframe src="https://open.spotify.com/embed/album/5uVgEgoBhThmu7Pse158wW" frameborder="0" allowtransparency="true" allow="encrypted-media" class="audio"></iframe>
+                    <iframe src="https://open.spotify.com/embed/album/5uVgEgoBhThmu7Pse158wW" allow="encrypted-media" class="audio"></iframe>
                 </div>
             </div>
-            <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-0">    
+            <!--end of Grand album-->
+            
+            <!--Sunrise album-->
+            <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-1">    
                 <input id="toggle-sunrise" type="checkbox"><label for="toggle-sunrise">Sunrise over Sea ( See album )</label>
-                <div id="wrap">
+                <div class="wrap">
                     <div id="sunrise">
-                        <img src="/assets/jbt-sunrise.jpg"></img>
+                        <img src="/assets/jbt-sunrise.jpg" alt="sunrise-image">
                     </div>
-                    <iframe src="https://open.spotify.com/embed/album/4v8fleThkidEttSVVdle6p" frameborder="0" allowtransparency="true" allow="encrypted-media" class="audio"></iframe>
+                    <iframe src="https://open.spotify.com/embed/album/4v8fleThkidEttSVVdle6p" allow="encrypted-media" class="audio"></iframe>
                 </div>
             </div>
+            <!--end of Sunrise album-->
         </section>
+        <!--end of albums/spotify embed-->
+        
     </main>
+    <!--end of main-content-->
     
-    <!----------Footer---------->
-    
+    <!--Footer-->
     <footer class="container-fluid ">
         <div class="row footer">
             <div class="col-xs-12 col-sm-5">
@@ -154,14 +176,20 @@
                 </ul>
             </div>
             
-    <!---------To top tab--------> 
-    
+            <!--To top tab--> 
             <div class="col-xs-1 to-top">
                 <i class="fas fa-chevron-circle-up"></i>
             </div>
+            <!--end of To top tab--> 
         </div>
     </footer>
+    <!--end of Footer-->
 </body>
+
+    <!--Bootstrap JS and Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </html>
        
        

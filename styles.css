@@ -1,13 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-/*--------general styles-----------------------------------*/
+/*--general styles---*/
 
 body{
     background-color: #000;
     font-family: "Lato",georgia,serif;
     font-size: 14px;
-    
-   
 }
 
 h1, h2, h3, h4, h5{
@@ -21,6 +19,14 @@ h1{
 
 h2{
     font-size: 2em;
+}
+
+.top-img-row{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    margin-top: 60px;
 }
 
 .section-header{
@@ -57,11 +63,8 @@ h2{
     margin-top: 12px;
 }
 
-.top-row{
-    margin-top: 50px;
-}
 
-/*---------header-navbar-----------------------------------*/
+/*--header-navbar--*/
 
 .navbar-logo{
     width: auto;
@@ -76,6 +79,7 @@ h2{
     font-weight: bold;
     margin: 0;
     padding: 10px;
+    margin-left: 10px;
 }
 
 .register-form{
@@ -137,9 +141,7 @@ h2{
     /*background-image: url("/assets/bubinga-1200x300.jpg");*/ 
     background-color: #400606;
     border-bottom: solid 4px #000;
-    
 }
-
 
 .page-active{
     height: 60px;
@@ -164,7 +166,6 @@ h2{
     padding: 15px;
 }
 
-
 .navbar-default{
     border-color: #000;
 }
@@ -184,19 +185,22 @@ h2{
     background-color: #333;
 }
 
-
-/*---------home-top-row--------------------------*/
-
-    
+/*--top-row-styles--*/
 
 .home-top-row{
     background-image: url("/assets/butler-john-trio.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 60vh;
-    margin-top: 60px;
-    
+}
+
+.about-top-row{
+    background-image: url("/assets/jbt-the-band.jpg");
+}
+
+.music-top-row{
+    background-image: url("/assets/jbt-the-music.jpg");
+}
+
+.contact-top-row{
+    background-image: url("/assets/jbt-contact.jpg");
 }
 
 .jbt-badge{
@@ -213,17 +217,17 @@ h2{
 }
 
 
-
-
-/*---------video home page-----------------------------------------------*/
-
-
+/*--video home page--*/
 
 .video-news-row{
     background-image: url("/assets/tour-bg1.jpg");
     text-align: center;
     padding: 0;
-    
+}
+
+
+.video-article{
+        
 }
 
 .video-home{
@@ -234,8 +238,8 @@ h2{
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
+    margin-top: 10px;
 }
-
 
 .video-wrapper iframe{
     position: absolute;
@@ -246,14 +250,13 @@ h2{
     border: 0;
 }    
 
-/*---------news--------------------------------------*/
+/*--news--*/
 
 .news-info{
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 16px;
 }
-
-
 
 .social-row{
     padding-bottom: 25px;
@@ -288,7 +291,6 @@ h2{
 
 .social-icons{
     padding-left: 0;
-    
 }
 
 .social-icons li i{
@@ -318,7 +320,6 @@ h2{
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #a93d3d;
-   
 }
 
 .fa-facebook-f:hover {
@@ -381,9 +382,7 @@ h2{
     background-color: #1db954;
 }
 
-/*---------discography home page--------------------------------------*/
-
-   
+/*--discography home page--*/
 
 .disc-row{
     padding-bottom: 25px;
@@ -406,16 +405,11 @@ h2{
   z-index: -1;   
 }
 
-
-
 .disc-header{
     text-align: center;
     color: white;
     font-weight: 200;
 }
-
-
-
  
 .album-row{
     padding-bottom: 10px;
@@ -423,13 +417,11 @@ h2{
 
 .album-caption{
     text-align: center;
-   
 }
 
 .album-title{
     color: white;
     font-size: 1.25em;
-    
 }
 
 /*---------tour home------------------------------------------*/
@@ -442,6 +434,11 @@ h2{
     color: #fff;
 }
 
+.tour-date{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
 .twitter-list{
     padding: 0;
 }
@@ -452,23 +449,11 @@ h2{
     background-color: transparent;
 }
 
-
 .twitter-list-item{
     background-color: transparent;
 }
 
- 
-
 /*---------about page--------------------------------*/
-
-.about-top-row{
-    background-image: url("/assets/jbt-the-band.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 60vh;
-    margin-top: 50px;
-}
 
 #about-img{
     width: 100%;
@@ -480,22 +465,16 @@ h2{
     background-color: #000;
     color: white;
     padding: 15px;
-    
 }
-
-
 
 .band-member-img-col{
     padding: 0;
-    
-    
 }
 
 .band-members-img{
     width:100%;
     position: relative;
     z-index: -1;
-    
 }
 
 .band-member-bio{
@@ -507,23 +486,18 @@ h2{
 
 .band-member-bio p {
     padding-top: 15px;
-    
 }
 
 .band-member-bio h2{
     margin: 0;
 }
 
-
-
-
-/*---------tour page----------------*/
+/*--tour section--*/
 
 .tour-container{
     background-color: #191718;
     text-transform: uppercase
 }
-
 
 .tour-row{
     background-image: url("/assets/4957b0603a0416b.jpg");
@@ -536,16 +510,16 @@ h2{
     color: #000;
 }
 
+.full-width{
+    width: 100%;
+    height: auto;
+}
+
 .tour-list{
     list-style: none;
     font-family: "Cinzel",georgia,serif;
     overflow: hidden;
     color: #7d4408;
-}
-
-
-.tour-date{
-    display: inline-block;
 }
 
 .day{
@@ -570,8 +544,8 @@ h2{
    padding: 0;
    text-align: center;
    width: 75px;
-    
 }
+
 .tour-tickets a{
     display: block;
     color: #7d4408;
@@ -580,7 +554,6 @@ h2{
     padding: 9px 7px;
     border-radius: 4px;
     cursor: pointer;
-       
 }
 
 .tour-list li:last-child{
@@ -593,7 +566,6 @@ h2{
     -moz-transition: color .3s ease-in-out;
     -o-transition: color .3s ease-in-out;
     transition:color .3s ease-in-out; 
-   
 }
 
 .tour-list-event{
@@ -610,22 +582,10 @@ h2{
     text-align: center;
 }
 
-
-
-/*---------music page-----------------------------------------------*/
+/*--music page--*/
 
 .music-container{
     margin-bottom: 30px;
-}
-
-
-.music-top-row{
-    background-image: url("/assets/jbt-the-music.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 60vh;
-    margin-top: 50px;
 }
 
 #music-logo{
@@ -642,7 +602,7 @@ h2{
     color: white;
 }
 
-/*--album cover and spotify embed elements--*/
+/*--album cover and spotify embed elements (learnt from You-Tube)--*/
 
 .audio{
     position: absolute;
@@ -652,10 +612,9 @@ h2{
     width: 231px;
 }
 
-#wrap {
+.wrap {
     height: 231px;
     width: 231px;
-    
     position: relative;
     z-index: 1;
 }
@@ -725,7 +684,38 @@ h2{
 #toggle-sunrise:checked ~ #wrap > #sunrise{
     max-height: 0;
 }
-/*---------footer-----------------------------------------------*/
+
+
+/*--contact page--*/
+
+.contact-header{
+    text-align: center;
+    color: #fff;
+}
+
+.contact-form{
+    background-color: #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.contact-form input[type=text], select, textarea{
+    width: 100%
+}
+
+.contact-form input[type=submit]{
+    border-radius: 5px;
+}
+
+.sign-img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/*--footer--*/
 
 footer{
     /*background-image: url("/assets/bubinga-1200x300.jpg");*/
@@ -735,7 +725,6 @@ footer{
     margin: 0;
     padding-top: 10px;
     text-align: center;
-    
 }
 
 .copyright{
@@ -787,12 +776,11 @@ footer{
 footer p{
     color: white;
 }
-/*---------media-queries-------------------------------------------*/
+
+/*--media-queries--*/
 
 @media(min-width:768px){
-    .home-top-row,
-    .music-top-row,
-    .about-top-row{
+    .top-img-row{
         height: 80vh;
     }
     .jbt-name h2{
@@ -819,15 +807,44 @@ footer p{
     .social-menu{
         display: none !important;
 }
-    
 }
 
 @media(min-width:992px){
-    .home-top-row,
-    .music-top-row,
-    .about-top-row{
-        height: 90vh;}
+    .top-img-row{
+        height: 90vh;
+    }
+    .album-row{
+        margin-left: 3%;
+    }
+    .tour-list{
+        margin-top: 15vh;
+    }
 }
+
+@media(min-width:1024px){
+    #wrap{
+        left: 10%;
+    }
+    .jbt-name h2{
+        font-size: 3.5em;
+    }
+    .album-row{
+        margin-left: 2%
+    }
+}
+
+@media(min-width:1366px){
+    .album-row{
+        margin-left: 8%
+    }
+}
+
+@media(min-width:1600px){
+    .album-row{
+        margin-left: 10%
+    }
+}
+
 
 @media(max-width:767px){
     .home-top{
@@ -848,9 +865,7 @@ footer p{
     .tour-tickets{
         margin: 5px 0;
     }
-    .home-top-row,
-    .music-top-row,
-    .about-top-row{
+    .top-img-row{
         margin-top: 50px;
     }
     .form-navbar{
@@ -863,12 +878,4 @@ footer p{
 }
 
 
-@media(min-width:1024px){
-    #wrap{
-        left: 10%;
-    }
-    .jbt-name h2{
-        font-size: 3.5em;
-    }
-}
 
