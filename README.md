@@ -1,4 +1,4 @@
-#The John Butler Trio
+*The John Butler Trio
 
 One or two paragraphs providing an overview of your project.
 
@@ -7,25 +7,23 @@ Front end only website built for Code Institutes Full Stack Web Development cour
 The John Butler Trio are an Australian roots/rock band. The band were chosen as the subject for this project due to their availability of a
 varied selection of images, videos, music and color pallete to allow for greater flexibility in design.
 
-###UX
+**UX
 
 This website was created for two reasons:
 
 1) The primary purpose of showcasing the skills I have learn't in the first 3 module of Code Institutes Full Stack Web Development course.
 
-As an accessor you will be able to:
-
-* See the 4 page front end website here (insert website url).
-* View the code written behind the website here (insert gthub url).
+* As an accessor you will be able to:
+    - See the 4 page front end website here (insert website url).
+    - View the code written behind the website here (insert gthub url).
 
 2) This website, once deployed live, will provide any fans of The John Butler Trio with information relaiting to the band. 
 
-As a fan of The John Butler Trio you will be able to:
-
-* Keep up to date with the bands latest news such as tour dates, videos, photos, music etc (insert website url)
-* Discover how the band originated and each band members story here (insert about.html)
-* Contact the band for promotional or fan based queries (insert contact.html)
-* See the bands activity on social media in the social networks section of the home page (insert index.html)
+* As a fan of The John Butler Trio you will be able to:
+    - Keep up to date with the bands latest news such as tour dates, videos, photos, music etc (insert website url)
+    - Discover how the band originated and each band members story here (insert about.html)
+    - Contact the band for promotional or fan based queries (insert contact.html)
+    - See the bands activity on social media in the social networks section of the home page (insert index.html)
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
