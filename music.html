@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
+    <!--styles.css-->
+    <link rel="stylesheet" href="/assets/styles.css" type="text/css" />
+    
     <!--bootstrap CDN-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     
@@ -44,11 +47,11 @@
                                 <li><a href="/contact.html">Contact</a></li>
                             </ul>   
                         <ul  class="social-menu">
-                            <li><a href="" class="social-icon"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="" class="social-icon"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="" class="social-icon"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="" class="social-icon"><i class="fab fa-youtube"></i></a></li>
-                            <li><a href="" class="social-icon"><i class="fab fa-spotify"></i></a></li>
+                            <li><a href="https://www.facebook.com/JohnButlerTrio/" class="social-icon"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://twitter.com/JohnButlerTrio?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="social-icon"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/johnbutlertrio/?hl=en" class="social-icon"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCQ0gZgLbqHywkNU_mDJKDzg" class="social-icon"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://open.spotify.com/artist/6fBF4MULW5yMzyGaon1kUt?si=wk-U6cetTviMpzPhl4hWcQ" class="social-icon"><i class="fab fa-spotify"></i></a></li>
                         </ul>
                             <form class="form-navbar" action="/action_page.php">
                                 <div class="register-form">
@@ -66,6 +69,9 @@
     
     <!--main-content-->
     <main class="container-fluid music-container">
+        
+        <!--to top-->
+        <div id="top"></div>
         
         <!--music-top-image-->
         <section class="row music-top-row top-img-row">
@@ -169,16 +175,16 @@
             </div>
             <div class="col-xs-10 col-xs-offset-1 col-sm-5 footer-menu">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Music</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li class="page-active-footer"><a href="/music.html">Music</a></li> 
+                    <li><a href="/contact.html">Contact</a></li>
                 </ul>
             </div>
             
             <!--To top tab--> 
-            <div class="col-xs-1 to-top">
-                <i class="fas fa-chevron-circle-up"></i>
+            <div class="col-xs-1">
+                <a href="#top" class="to-top"><i class="fas fa-chevron-circle-up"></i></a>
             </div>
             <!--end of To top tab--> 
         </div>

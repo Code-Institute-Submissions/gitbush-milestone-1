@@ -34,8 +34,6 @@ The website is made of 4 pages:
 4. ##### Contact page:
     - A contact form provided to contact the band for any promotional or fan based queries (back end to be added at a later date).
 
-#### Features Left to Implement
-Another feature idea
 
 ### Technologies Used
 
@@ -47,7 +45,7 @@ Tehnologies used in this project:
 
 Frameworks used:
 
-* Bootstrap (3.37) used for: 
+* Bootstrap (https://getbootstrap.com/docs/3.3/) used for: 
     - Repsonsive grid layout
     - Navbar & dropdown menu
     - Some button styles
@@ -78,14 +76,8 @@ As an assessor you will be able to succesfully test the website:
     * Youtube
 
 ### Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+The website is hosted on Github here 
 
 ### Credits
 
