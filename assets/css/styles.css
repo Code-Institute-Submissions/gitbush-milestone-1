@@ -192,19 +192,19 @@ h2{
 /*--top-row-styles--*/
 
 .home-top-row{
-    background-image: url("assets/images/butler-john-trio.jpg");
+    background-image: url("./assets/images/butler-john-trio.jpg");
 }
 
 .about-top-row{
-    background-image: url("assets/images/jbt-the-band.jpg");
+    background-image: url("./assets/images/jbt-the-band.jpg");
 }
 
 .music-top-row{
-    background-image: url("assets/images/jbt-the-music.jpg");
+    background-image: url("./assets/images/jbt-the-music.jpg");
 }
 
 .contact-top-row{
-    background-image: url("assets/images/jbt-contact.jpg");
+    background-image: url("./assets/images/jbt-contact.jpg");
 }
 
 .jbt-badge{
