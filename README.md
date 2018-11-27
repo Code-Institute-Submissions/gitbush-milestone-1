@@ -77,7 +77,7 @@ As an assessor you will be able to succesfully test the website:
 
 ### Deployment
 
-The website is hosted on Github here https://gitbush.github.io/milestone-1/index.html#top
+The website is hosted on Github here https://gitbush.github.io/milestone-1/ 
 
 ### Credits
 
