@@ -13,13 +13,13 @@ This website was created for two reasons:
 
     - As an accessor you will be able to:
         - Easily browse and test all functionality of the 4 page website.
-        - View the code written behind the website (insert gthub url).
+        - View the code written behind the website 
 
 2. This website, once deployed live, will provide any fans of The John Butler Trio with information relaiting to the band where:
 
     - As a fan of The John Butler Trio you will be able to:
-        - Browse latest news such as tour dates, videos, photos, music, social media, band bios etc (insert website url)
-        - Contact the band for promotional or fan based queries (insert contact.html)
+        - Browse latest news such as tour dates, videos, photos, music, social media, band bios etc 
+        - Contact the band for promotional or fan based queries
 
 ### Features
 
@@ -77,7 +77,7 @@ As an assessor you will be able to succesfully test the website:
 
 ### Deployment
 
-The website is hosted on Github here 
+The website is hosted on Github here https://gitbush.github.io/milestone-1/index.html#top
 
 ### Credits
 
