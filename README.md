@@ -58,7 +58,7 @@ Tools used in this project:
 
 ### Testing
 
-##### As an assessor you will be able to succesfully test the website: 
+#### As an assessor you will be able to succesfully test the website: 
 
 1. HTML validator https://validator.w3.org/
 2. CSS validator https://jigsaw.w3.org/css-validator/
@@ -81,7 +81,7 @@ Tools used in this project:
     * Facebooks
     * Youtube
 
-##### As fan of The John Butler Trio you will be able to navigate the website:
+#### As fan of The John Butler Trio you will be able to navigate the website:
 
 1. Each page loads correctly.
 
