@@ -699,7 +699,7 @@ h2{
     padding: 15px;
 }
 
-.contact-form input[type=text], select, textarea{
+.contact-form input[type=text],input[type=email], select, textarea{
     width: 100%
 }
 
