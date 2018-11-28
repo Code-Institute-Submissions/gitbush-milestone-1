@@ -21,6 +21,10 @@ This website was created for two reasons:
         - Browse latest news such as tour dates, videos, photos, music, social media, band bios etc 
         - Contact the band for promotional or fan based queries
 
+#### Wireframes
+
+Draft wireframes canbe found here https://balsamiq.cloud/smhrh91/pnbf567/r8562
+
 ### Features
 
 The website is made of 4 pages:
