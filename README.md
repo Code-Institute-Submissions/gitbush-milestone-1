@@ -39,9 +39,9 @@ The website is made of 4 pages:
 
 Tehnologies used in this project:
 
-* HTML
-* CSS
-* Javascript and Jquery - used for dropdown menu (although not needed for assessment)
+* HTML- for markup.
+* CSS - for static styling.
+* Javascript and Jquery (https://jquery.com) - used for dropdown menu (although not needed for assessment)
 
 Frameworks used:
 
@@ -49,6 +49,12 @@ Frameworks used:
     - Repsonsive grid layout
     - Navbar & dropdown menu
     - Some button styles
+
+Tools used fin this project:
+
+* For image formatting:
+    - http://resizeimage.net/
+    - https://www269.lunapic.com/editor/?action=transparent
 
 ### Testing
 
@@ -75,15 +81,31 @@ As an assessor you will be able to succesfully test the website:
     * Facebooks
     * Youtube
 
+As fan of The John Butler Trio you will be able to navigate the website:
+
+1. Each page loads correctly.
+
+2. Youtube embedded videos play succesfully. Youtube link takes users to the bands Youtube page.
+
+3. Spotify embed/album cover (using checkbox hack) allows users to see the album cover before listening to relevant tracks.
+
+4. Social media icons will take user to the bands relevant social media platforms.
+
+5. Contact form will submit user information (currently form is front end only for this course module)
+
 ### Deployment
 
 The website is hosted on Github here https://gitbush.github.io/milestone-1/ 
 
 ### Credits
 
+##### Content
+
 All content used on this site was obtained from wikipedia or other news sources.
 * https://en.wikipedia.org/wiki/John_Butler_Trio
 * https://johnbutlertrio.com/
+
+##### Media
 
 Music from The John Butler Trio spotify page:
 * https://open.spotify.com/artist/6fBF4MULW5yMzyGaon1kUt?si=u4RYavBiROOCNNHwun_wQw
@@ -91,7 +113,7 @@ Music from The John Butler Trio spotify page:
 Videos from The John Butler Trio Youtube channel:
 * https://www.youtube.com/channel/UCQ0gZgLbqHywkNU_mDJKDzg
 
-Tool used for image formating 
+##### Acknowledgements
 
-* http://resizeimage.net/
+Full credit to fellow code institue students for positive reviews and feedback!
 
