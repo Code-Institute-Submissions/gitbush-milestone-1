@@ -50,7 +50,7 @@ Frameworks used:
     - Navbar & dropdown menu
     - Some button styles
 
-Tools used fin this project:
+Tools used in this project:
 
 * For image formatting:
     - http://resizeimage.net/
@@ -58,7 +58,7 @@ Tools used fin this project:
 
 ### Testing
 
-As an assessor you will be able to succesfully test the website: 
+##### As an assessor you will be able to succesfully test the website: 
 
 1. HTML validator https://validator.w3.org/
 2. CSS validator https://jigsaw.w3.org/css-validator/
@@ -81,7 +81,7 @@ As an assessor you will be able to succesfully test the website:
     * Facebooks
     * Youtube
 
-As fan of The John Butler Trio you will be able to navigate the website:
+##### As fan of The John Butler Trio you will be able to navigate the website:
 
 1. Each page loads correctly.
 
@@ -99,13 +99,13 @@ The website is hosted on Github here https://gitbush.github.io/milestone-1/
 
 ### Credits
 
-##### Content
+#### Content
 
 All content used on this site was obtained from wikipedia or other news sources.
 * https://en.wikipedia.org/wiki/John_Butler_Trio
 * https://johnbutlertrio.com/
 
-##### Media
+#### Media
 
 Music from The John Butler Trio spotify page:
 * https://open.spotify.com/artist/6fBF4MULW5yMzyGaon1kUt?si=u4RYavBiROOCNNHwun_wQw
@@ -113,7 +113,7 @@ Music from The John Butler Trio spotify page:
 Videos from The John Butler Trio Youtube channel:
 * https://www.youtube.com/channel/UCQ0gZgLbqHywkNU_mDJKDzg
 
-##### Acknowledgements
+#### Acknowledgements
 
 Full credit to fellow code institue students for positive reviews and feedback!
 
