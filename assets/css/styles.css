@@ -294,7 +294,7 @@ h2{
     font-size: 1.25em;
 }
 
-/*---------tour home------------------------------------------*/
+/*--tour home--*/
 
 .tour-bg{
     background-image: url("../images/tour-bg1.jpg");
@@ -735,84 +735,7 @@ footer{
 
 /*--media-queries--*/
 
-@media(min-width:768px){
-    .top-img-row{
-        height: 80vh;
-    }
-    .jbt-name h2{
-        font-size: 2.8em;
-    }
-    .disc-row{
-        padding-right:100px;
-        padding-left: 100px;
-    }
-    .band-members-row{
-    box-shadow:  inset -56vw 13px 9vw 2vw  #000;
-    }
-    .band-members-mid-row{
-    box-shadow:  inset 56vw 0px 13vw 7vw  #000;
-    }
-    .display-table-row{
-        display: table;
-    }
-    .table-cell{
-        display: table-cell;
-        float: none;
-    }
-    .social-menu{
-        display: none !important;
-}
-}
-
-@media(min-width:992px){
-    .top-img-row{
-        height: 90vh;
-    }
-    .album-row{
-        margin-left: 3%;
-    }
-    .album-header{
-        margin-right: 3%
-    }
-    .tour-list{
-        margin-top: 15vh;
-    }
-}
-
-@media(min-width:1024px){
-    #wrap{
-        left: 10%;
-    }
-    .jbt-name h2{
-        font-size: 3.5em;
-    }
-    .album-row{
-        margin-left: 5%
-    }
-    .album-header{
-        margin-right: 5%
-    }
-}
-
-@media(min-width:1366px){
-    .album-row{
-        margin-left: 8%
-    }
-    .album-header{
-        margin-right: 8%
-    }
-}
-
-@media(min-width:1600px){
-    .album-row{
-        margin-left: 10%
-    }
-    .album-header{
-        margin-right:10%;
-    }
-}
-
-
+/*--mobile devices--*/
 @media(max-width:767px){
     .home-top{
         box-shadow: inset 16vw -13px 41vw 3vw #191718;
@@ -844,8 +767,93 @@ footer{
     }
 }
 
+/*tablet devices*/
+@media(min-width:768px){
+    .top-img-row{
+        height: 80vh;
+    }
+    .jbt-name h2{
+        font-size: 2.8em;
+    }
+    .disc-row{
+        padding-right:100px;
+        padding-left: 100px;
+    }
+    .band-members-row{
+    box-shadow:  inset -56vw 13px 9vw 2vw  #000;
+    }
+    .band-members-mid-row{
+    box-shadow:  inset 56vw 0px 13vw 7vw  #000;
+    }
+    .display-table-row{
+        display: table;
+    }
+    .table-cell{
+        display: table-cell;
+        float: none;
+    }
+    .social-menu{
+        display: none !important;
+}
+}
+
+/*dekstop devices*/
+@media(min-width:992px){
+    .top-img-row{
+        height: 90vh;
+    }
+    .album-row{
+        margin-left: 3%;
+    }
+    .album-header{
+        margin-right: 3%
+    }
+    .tour-list{
+        margin-top: 15vh;
+    }
+}
+
+@media(min-width:1024px){
+    #wrap{
+        left: 10%;
+    }
+    .jbt-name h2{
+        font-size: 3.5em;
+    }
+    .album-row{
+        margin-left: 5%
+    }
+    .album-header{
+        margin-right: 5%
+    }
+}
+
 @media(max-width:1200px){
     .tour-event-lg{
         display: none;
     }
 }
+
+/*large desktop devices*/
+@media(min-width:1366px){
+    .album-row{
+        margin-left: 8%
+    }
+    .album-header{
+        margin-right: 8%
+    }
+}
+
+@media(min-width:1600px){
+    .album-row{
+        margin-left: 10%
+    }
+    .album-header{
+        margin-right:10%;
+    }
+}
+
+
+
+
+
