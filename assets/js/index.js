@@ -6,9 +6,6 @@ $(".form-navbar , .contact-form").on("submit", function(e){
     e.preventDefault();
 });
 
-// $(".contact-form").on("submit", function(e){
-//     $("#contactModal").modal("show");
-//     e.preventDefault();
-// });
+
 
 
