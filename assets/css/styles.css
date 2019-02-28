@@ -323,11 +323,6 @@ h2{
     background-color: transparent;
 }
 
-.tour-container{
-    background-color: #191718;
-    text-transform: uppercase
-}
-
 .tour-row{
     background-image: url("../images/4957b0603a0416b.jpg");
     background-size: contain; 
