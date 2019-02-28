@@ -23,22 +23,28 @@ This website was created for two reasons:
 
 #### Wireframes
 
-Draft wireframes canbe found here https://balsamiq.cloud/smhrh91/pnbf567/r8562
+Draft wireframes can be found here https://balsamiq.cloud/smhrh91/pnbf567/r8562
 
 ### Features
 
-The website is made of 4 pages:
+* Social media links
+    - Embedded Tweets using the Twitter Developer page - https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/overview
+    - All social media icons will send the user to the relevant band or band member social media pages.
+* Music page Album/Spotify Embed
+    - Checkbox set to display none with a label in its place. When "checked" updates the max-height of the ".wrap" 
+      container to 0 - showing the spotify iframe underneath. 
+    - Although this could have been achieved much easier with Javascript - using only HTML and CSS - showcases my 
+      understanding of the technologies taught in the User Centric Frontend Modules.
+* Contact form and email navbar form
+    - All forms are validated with HTML5 validation. This prevents a user from submitting an invalid input.
+    - A confirmation modal with appear on succesful submit of form. 
+    
+#### Feautures to Implement
 
-1. ##### Home page: 
-    - General information about The John Butler Trio with latest news, videos, albums, tour dates and social posts.
-2. ##### About page:
-    - Information on the bands origins as well as a brief bio on each of the band members.
-3. ##### Music page: 
-    - The latest albums with full playlists offered via spotify embed.
-4. ##### Contact page:
-    - A contact form provided to contact the band for any promotional or fan based queries (back end to be added at a later date).
-
-
+* Social Feed
+    - Improve on the Twitter Tweet embed and add a live Twitter/Instagram Timeline feed. 
+* Contact Forms
+    - Add request proccessing functionality to all forms.
 
 ### Technologies Used
 
@@ -108,7 +114,6 @@ The site has been deployed using GitHub Pages via the master branch and is avail
 
 Github Pages: https://gitbush.github.io/milestone-1/ 
 
-### Credits
 
 #### Content
 
