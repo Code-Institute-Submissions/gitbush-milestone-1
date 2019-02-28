@@ -23,12 +23,13 @@ This website was created for two reasons:
 
 #### Wireframes
 
-Draft wireframes can be found <a href= "https://github.com/gitbush/milestone-1/blob/master/assets/wireframes/wireframes-JBT.pdf">here</a> 
+Draft wireframes can be found <a href= "https://github.com/gitbush/milestone-1/blob/master/assets/wireframes/wireframes-JBT.pdf" target="_blank">here</a> 
+
 
 ### Features
 
 * Social media links
-    - Embedded Tweets using the Twitter Developer page - https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/overview
+    - Embedded Tweets using the Twitter Developer page - <a href= "https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/overview" target="_blank">Twitter Developer</a>
     - All social media icons will send the user to the relevant band or band member social media pages.
 * Music page Album/Spotify Embed
     - Checkbox set to display none with a label in its place. When "checked" updates the max-height of the ".wrap" 
