@@ -53,9 +53,9 @@ Tehnologies used in this project:
 
 * HTML5- for markup.
 * CSS3 - for static styling.
-* Javascript and Jquery (https://jquery.com) - used for dropdown menu (although not needed for assessment)
+* Javascript and Jquery - for dropdown menu (although not needed for assessment)
 * Font Awesome 5 - Icon elements 
-* Bootstrap (https://getbootstrap.com/docs/3.3/) used for: 
+* Bootstrap (3.3.7) for: 
     - Repsonsive grid layout
     - Navbar & dropdown menu
     - Some button styles
@@ -65,21 +65,21 @@ Tehnologies used in this project:
 Tools used in this project:
 
 * For image formatting:
-    - http://resizeimage.net/
-    - https://www269.lunapic.com/editor/?action=transparent
+    - <a href = "http://resizeimage.net/" target="_blank">Image resizer</a>
+    - <a href = "https://www269.lunapic.com/editor/?action=transparent" target = "_blank">Image Editor</a>
 
 ### Testing
 
 #### As an assessor you will be able to succesfully test the website: 
 
-1. HTML validator https://validator.w3.org/
-2. CSS validator https://jigsaw.w3.org/css-validator/
+1. HTML validator - <a href = "https://validator.w3.org/" target="_blank">Here</a>
+2. CSS validator - <a href = "https://jigsaw.w3.org/css-validator/" target= "_blank">Here</a>
 3. On all screen sizes/devices.
 
     * Tools used for screen size/device compatability:
 
         - Chrome dev tools
-        - http://responsivedesignchecker.com/
+        - <a href = "http://responsivedesignchecker.com/" target= "_blank">Responsive Design Checker</a>
 
 4. On all major browsers
     * Tested on all browsers 
@@ -109,26 +109,29 @@ Tools used in this project:
  
 Deployment and source control was handled by git and github. The repository can be found here:
 
-https://github.com/gitbush/milestone-1
+<a href = "https://github.com/gitbush/milestone-1" target= "_blank">Milestone 1 repo</a>
+
 
 The site has been deployed using GitHub Pages via the master branch and is available to review here:
 
-Github Pages: https://gitbush.github.io/milestone-1/ 
-
-
+<a href = "https://gitbush.github.io/milestone-1/ " target= "_blank">Github Pages</a>
+ 
+ 
 #### Content
 
 All content used on this site was obtained from wikipedia and the John Butler Trios website.
-* https://en.wikipedia.org/wiki/John_Butler_Trio
-* https://johnbutlertrio.com/
+* <a href = "https://en.wikipedia.org/wiki/John_Butler_Trio" target= "_blank">John Butler Trio Wikipedia</a>
+* <a href = "https://johnbutlertrio.com/" target= "_blank">John Butler Trio Website</a>
 
 #### Media
 
 Music from The John Butler Trio spotify page:
-* https://open.spotify.com/artist/6fBF4MULW5yMzyGaon1kUt?si=u4RYavBiROOCNNHwun_wQw
+* <a href = "https://open.spotify.com/artist/6fBF4MULW5yMzyGaon1kUt?si=u4RYavBiROOCNNHwun_wQw" target= "_blank">John Butler Trio Spotify</a>
+
 
 Videos from The John Butler Trio Youtube channel:
-* https://www.youtube.com/channel/UCQ0gZgLbqHywkNU_mDJKDzg
+* <a href = "https://www.youtube.com/channel/UCQ0gZgLbqHywkNU_mDJKDzg" target= "_blank">John Butler Trio YouTube</a>
+
 
 #### Acknowledgements
 
