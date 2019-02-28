@@ -43,16 +43,16 @@ The website is made of 4 pages:
 
 Tehnologies used in this project:
 
-* HTML- for markup.
-* CSS - for static styling.
+* HTML5- for markup.
+* CSS3 - for static styling.
 * Javascript and Jquery (https://jquery.com) - used for dropdown menu (although not needed for assessment)
-
-Frameworks used:
-
+* Font Awesome 5 - Icon elements 
 * Bootstrap (https://getbootstrap.com/docs/3.3/) used for: 
     - Repsonsive grid layout
     - Navbar & dropdown menu
     - Some button styles
+* Google Fonts
+    - "Lato" Font used on the site are provided from Google Fonts. 
 
 Tools used in this project:
 
