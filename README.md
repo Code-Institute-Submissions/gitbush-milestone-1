@@ -23,7 +23,7 @@ This website was created for two reasons:
 
 #### Wireframes
 
-Draft wireframes can be found here https://balsamiq.cloud/smhrh91/pnbf567/r8562
+Draft wireframes can be found <a href= "https://github.com/gitbush/milestone-1/blob/master/assets/wireframes/wireframes-JBT.pdf">here</a> 
 
 ### Features
 
