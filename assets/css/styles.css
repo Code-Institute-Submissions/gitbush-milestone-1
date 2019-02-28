@@ -11,6 +11,7 @@ body{
 h1, h2, h3, h4, h5{
     font-weight: bold;
     text-transform: uppercase;
+    
 }
 
 h1{
@@ -512,6 +513,10 @@ h2{
     padding: 15px;
 }
 
+.trio-header{
+    color: white;
+}
+
 .band-member-img-col{
     padding: 0;
 }
@@ -566,6 +571,7 @@ h2{
     height: 231px;
     width: 231px;
 }
+
 
 .wrap {
     height: 231px;
