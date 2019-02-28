@@ -39,6 +39,7 @@ The website is made of 4 pages:
     - A contact form provided to contact the band for any promotional or fan based queries (back end to be added at a later date).
 
 
+
 ### Technologies Used
 
 Tehnologies used in this project:
@@ -76,7 +77,7 @@ Tools used in this project:
 4. On all major browsers
     * Tested on all browsers 
 
-5. All forms are validated with relevant messages
+5. All forms are validated with relevant messages and submits are validated with modals.
 
 6. All links to social media functional eg:
     * Instagram
