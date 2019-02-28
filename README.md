@@ -98,14 +98,20 @@ Tools used in this project:
 5. Contact form will submit user information (currently form is front end only for this course module)
 
 ### Deployment
+ 
+Deployment and source control was handled by git and github. The repository can be found here:
 
-The website is hosted on Github here https://gitbush.github.io/milestone-1/ 
+https://github.com/gitbush/milestone-1
+
+The site has been deployed using GitHub Pages via the master branch and is available to review here:
+
+Github Pages: https://gitbush.github.io/milestone-1/ 
 
 ### Credits
 
 #### Content
 
-All content used on this site was obtained from wikipedia or other news sources.
+All content used on this site was obtained from wikipedia and the John Butler Trios website.
 * https://en.wikipedia.org/wiki/John_Butler_Trio
 * https://johnbutlertrio.com/
 
