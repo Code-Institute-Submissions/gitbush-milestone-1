@@ -135,5 +135,5 @@ Videos from The John Butler Trio Youtube channel:
 
 #### Acknowledgements
 
-Full credit to fellow code institue students for positive reviews and feedback!
+Full credit to fellow code institute students for positive reviews and feedback!
 
