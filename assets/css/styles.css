@@ -791,7 +791,6 @@ footer{
     }
     .table-cell{
         display: table-cell;
-        float: none;
     }
     .social-menu{
         display: none !important;
