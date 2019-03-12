@@ -82,7 +82,12 @@ Tools used in this project:
         - <a href = "http://responsivedesignchecker.com/" target= "_blank">Responsive Design Checker</a>
 
 4. On all major browsers
-    * Tested on all browsers 
+    * Google Chrome - no issues.
+    * Microsoft Edge - Latest news section was pushed down the page. Removed float-none to resolve.
+    * Firefox - no issues.
+    * Safari - form validation is not supported on safari without Javascript. Modals will load with an empty field.
+    As this is a HTML and CSS project I left as is.
+    * Opera - no issues.
 
 5. All forms are validated with relevant messages and submits are validated with modals.
 
